@@ -85,9 +85,9 @@ This README walks through the steps to set up **bettercap** on Kali Linux and pe
 ## Included files
 - `README.md` — this file.
 - Sanitized screenshots:
-  - `sanitized_1.png`
-  - `sanitized_2.png`
-  - `sanitized_3.png`
+  - `redacted_1.png`
+  - `redacted_2.png`
+  - `redacted_3.png`
 
 > **Security note:** ARP spoofing is disruptive and can break network connectivity. Only perform ARP spoofing on networks and devices you own or have explicit permission to test.
 
