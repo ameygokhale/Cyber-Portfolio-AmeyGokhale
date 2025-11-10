@@ -1,4 +1,4 @@
-# Bettercap Setup & ARP Spoofing 
+# Bettercap Setup & DNS Spoofing 
 
 This README walks through the steps to set up **bettercap** on Kali Linux and perform DNS spoofing. All example screenshots included in this package have been **sanitized** to remove IPs, MACs and other sensitive on-screen data.
 
