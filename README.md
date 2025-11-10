@@ -29,7 +29,7 @@ Larger, scenario-based builds showing end-to-end skills.
 
 | Project | Summary | Tools |
 |----------|----------|-------|
-| [Smart Plug Security Audit](Projects/Smart_Plug_Security_Audi/README.md) | This project presents a detailed case study on the cybersecurity assessment of a Wi-Fi–enabled Smart Plug, a common consumer IoT device that allows remote control and energy monitoring of electronic appliances.The objective of this research is to analyze the security posture of the device using real-world assessment methodologies including Threat Modeling, Firmware Analysis, Network Traffic Inspection, and Software Bill of Materials (SBOM) Evaluation | Wireshark,USB-to-Serial Adapter,Logic Analyzer,Firmware Extractor,Microsoft Threat Modeling Tool|
+| [Smart Plug Security Audit](Projects/Smart_Plug_Security_Audi/README.md) | This project presents a detailed case study on the cybersecurity assessment of a Wi-Fi enabled Smart Plug, a common consumer IoT device that allows remote control and energy monitoring of electronic appliances.The objective of this research is to analyze the security posture of the device using real world assessment methodologies including Threat Modeling, Firmware Analysis, Network Traffic Inspection, and Software Bill of Materials (SBOM) Evaluation | Wireshark,USB-to-Serial Adapter,Logic Analyzer,Firmware Extractor,Microsoft Threat Modeling Tool|
 
 
 
