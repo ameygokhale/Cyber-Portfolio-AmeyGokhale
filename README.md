@@ -2,7 +2,7 @@
 Hands-on cybersecurity portfolio: labs &amp; projects
 
 Practical cybersecurity portfolio combining **labs** (tool-based exercises) and **projects** (end-to-end implementations).  
-Covers penetration testing, network security, cloud hardening, digital forensics, and cryptography.
+Covers penetration testing, network security, cloud hardening, digital forensics, embedded cybersecurity, and cryptography.
 
 All experiments were conducted in **isolated lab environments**.  
 Each folder contains detailed methodology, sanitized screenshots, and remediation recommendations.
@@ -15,9 +15,9 @@ Short, focused demonstrations of specific tools or vulnerabilities.
 | Lab | Tools / Focus | Tags |
 |-----|----------------|------|
 | [DVWA SQL Injection](labs/dvwa-sqli/README.md) | sqlmap,DVWA | Web App Security, SQLi |
-| [Arp Spoofing Bettercap](labs/arp-spoofing-bettercap/README.md) | Arp, Bettercap | Arp, Bettercap |
+| [Arp Spoofing Bettercap](labs/arp-spoofing-bettercap/README.md) | Arp, Bettercap | Arp, Bettercap, Spoofing |
 | [MITM Bettercap](labs/MITM-attack-bettercap/README.md) | MITM, Bettercap | MITM, Bettercap |
-| [Dns Spoofing Bettercap](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Bettercap |
+| [Dns Spoofing Bettercap](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Bettercap, Spoofing |
 | [GPG Suit](labs/gpg-suit/README.md) | GPG-suit| GPG-suit,Asymmetric encryption|
 
 Cyber-Portfolio-AmeyGokhale/
