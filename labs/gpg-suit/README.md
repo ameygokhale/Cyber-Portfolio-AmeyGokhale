@@ -1,4 +1,4 @@
-# GPG Suite on macOS — Step-by-Step Guide
+# GPG Suite on macOS 
 
 This guide walks you through creating encryption keys, encrypting and decrypting files, and sharing keys using **GPG Suite** on macOS — **no terminal required**.
 
