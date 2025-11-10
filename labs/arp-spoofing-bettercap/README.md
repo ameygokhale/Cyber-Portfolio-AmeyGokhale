@@ -1,4 +1,4 @@
-# Bettercap Setup & ARP Spoofing — Quick Guide (Sanitized)
+# Bettercap Setup & ARP Spoofing 
 
 This README walks through the steps to set up **bettercap** on Kali Linux and perform ARP spoofing (up to enabling ARP spoofing in full-duplex). All example screenshots included in this package have been **sanitized** to remove IPs, MACs and other sensitive on-screen data.
 
