@@ -14,7 +14,10 @@ Short, focused demonstrations of specific tools or vulnerabilities.
 
 | Lab | Tools / Focus | Tags |
 |-----|----------------|------|
-| [DVWA SQL Injection](labs/dvwa-sqli/README.md) | sqlmap, | Web App Security, SQLi |
+| [DVWA SQL Injection](labs/dvwa-sqli/README.md) | sqlmap,DVWA | Web App Security, SQLi |
+| [Arp Spoofing Bettercap](labs/arp-spoofing-bettercap/README.md) | Arp, Bettercap | Arp, Bettercap |
+| [MITM Bettercap](labs/MITM-attack-bettercap/README.md) | MITM, Bettercap | MITM, Bettercap |
+| [Dns Spoofing Bettercap](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Bettercap |
 
 
 ---
