@@ -115,6 +115,8 @@ This README walks through the steps to set up **bettercap** on Kali Linux and pe
 - Sanitized screenshots:
   - `redacted_1.png`
   - `redacted_2.png`
+  - `redacted_3.png`
+  - `redacted_4.png`
 
 > **Security note:** DNS spoofing is disruptive and can break network connectivity. Only perform DNS spoofing on networks and devices you own or have explicit permission to test.
 
