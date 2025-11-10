@@ -1,16 +1,16 @@
-# 🔐 GPG Suite on macOS — Step-by-Step Guide
+# GPG Suite on macOS — Step-by-Step Guide
 
 This guide walks you through creating encryption keys, encrypting and decrypting files, and sharing keys using **GPG Suite** on macOS — **no terminal required**.
 
 ---
 
-## 🧰 Prerequisites
+## Prerequisites
 - macOS (latest version)
 - [GPG Suite](https://gpgtools.org/) installed
 
 ---
 
-## 1️⃣ Download and Install GPG Suite
+## Download and Install GPG Suite
 1. Visit [https://gpgtools.org/](https://gpgtools.org/)
 2. Click **Download GPG Suite**
 3. Open the `.dmg` file and follow installation steps
@@ -18,7 +18,7 @@ This guide walks you through creating encryption keys, encrypting and decrypting
 
 ---
 
-## 2️⃣ Create a New Key Pair
+## Create a New Key Pair
 1. Open **GPG Keychain**
 2. Click **New** (top left)
 3. Fill in your details:
@@ -34,7 +34,7 @@ This guide walks you through creating encryption keys, encrypting and decrypting
 
 ---
 
-## 3️⃣ Share Your Public Key
+## Share Your Public Key
 After your key is created:
 - You can **upload it to a public key server**, or
 - Export it manually and share it (`.asc` file).
@@ -45,7 +45,7 @@ To export manually:
 
 ---
 
-## 4️⃣ Import Someone Else’s Public Key
+## Import Someone Else’s Public Key
 If you’ve received someone’s `.asc` public key file:
 1. Right-click the file.
 2. Choose **Services → OpenPGP: Import Key from File**
@@ -54,7 +54,7 @@ If you’ve received someone’s `.asc` public key file:
 
 ---
 
-## 5️⃣ Encrypt a File
+## Encrypt a File
 To securely send a file:
 1. Right-click the file → **Services → OpenPGP: Encrypt File**
 2. Select the recipient(s) from the **Select Recipients** window
@@ -70,7 +70,7 @@ Send this file to the intended recipient.
 
 ---
 
-## 6️⃣ Decrypt a File
+## Decrypt a File
 To decrypt a received `.gpg` file:
 1. Right-click the file → **Services → OpenPGP: Decrypt File**
 2. Wait for the success dialog
@@ -81,7 +81,7 @@ To decrypt a received `.gpg` file:
 
 ---
 
-## 7️⃣ Services Menu Overview
+## Services Menu Overview
 
 | Service Option | Description |
 |----------------|-------------|
@@ -92,15 +92,6 @@ To decrypt a received `.gpg` file:
 | **OpenPGP: Verify Signature of File** | Verifies a signed file’s authenticity |
 
 ![Services Menu Options](images/services-options.png)
-
----
-
-## ✅ Summary
-You’ve now learned how to:
-- Create a key pair  
-- Import and export public keys  
-- Encrypt and decrypt files  
-- Use GPG Suite’s Services menu effectively  
 
 ---
 
