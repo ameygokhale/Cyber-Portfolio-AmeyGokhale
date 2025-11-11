@@ -77,7 +77,7 @@ Click **Format** to encrypt and initialize your new volume.
 ## Enter Password to Unlock
 Type the password you set earlier, then click **OK** to mount the volume.
 
-![Enter Password](images/enter%20password.png)
+![Enter Password](images/enterpassword.png)
 
 ---
 
