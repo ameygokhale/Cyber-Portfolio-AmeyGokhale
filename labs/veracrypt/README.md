@@ -87,5 +87,4 @@ Add or remove files as needed — all content remains encrypted on disk.
 
 ---
 
-### 📁 Recommended Repository Structure
 
