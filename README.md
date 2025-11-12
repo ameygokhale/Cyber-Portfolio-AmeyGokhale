@@ -18,7 +18,9 @@ Short, focused demonstrations of specific tools or vulnerabilities.
 | [Arp Spoofing Bettercap](labs/arp-spoofing-bettercap/README.md) | Arp, Bettercap | Arp, Bettercap, Spoofing |
 | [MITM Bettercap](labs/MITM-attack-bettercap/README.md) | MITM, Bettercap | MITM, Bettercap |
 | [Dns Spoofing Bettercap](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Bettercap, Spoofing |
-| [GPG Suit](labs/gpg-suit/README.md) | GPG-suit| GPG-suit,Asymmetric encryption|
+| [GPG Suit](labs/gpg-suit/README.md) | GPG-suit| GPG-suit, Asymmetric encryption|
+| [Veracrypt](labs/veracrypt/README.md) | veracrypt| veracrypt, symmetric encryption|
+| [Burpsuit](labs/burpsuit/README.md) | burpsuit, Intruder, Repeater| Burpsuit|
 
 
 ---
