@@ -1,4 +1,4 @@
-# 🧠 Wireshark Network Protocol Analysis Labs
+# Wireshark Network Protocol Analysis Labs
 
 This repository contains a collection of **Wireshark protocol analysis labs** demonstrating how various network protocols operate and transmit data.  
 Each lab includes setup instructions, capture steps, applied filters, and screenshots showing packet analysis.
@@ -18,7 +18,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-## ⚙️ Setup and Launching Wireshark
+## Setup and Launching Wireshark
 
 1. **Download Wireshark for macOS**  
    👉 [https://www.wireshark.org/download.html](https://www.wireshark.org/download.html)
@@ -31,7 +31,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-## 🌐 HTTP Analysis
+## HTTP Analysis
 
 ### Steps
 1. Start packet capture on `en0`.
@@ -69,7 +69,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-## 🌍 DNS Analysis
+## DNS Analysis
 
 ### Steps
 1. Start capturing in Wireshark.
@@ -92,7 +92,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-## 💻 DHCP Analysis
+## DHCP Analysis
 
 ### Steps
 1. Start Wireshark capture.
@@ -158,7 +158,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-## ✉️ SMTP Analysis
+## SMTP Analysis
 
 ### Steps
 1. Start capturing packets in Wireshark.
@@ -194,7 +194,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-## 🧩 Protocol Summary
+## Protocol Summary
 
 | Protocol | Port(s) | Encryption | Sensitive Data Visible | Key Insight |
 |-----------|----------|-------------|------------------------|-------------|
@@ -216,7 +216,7 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 
 ---
 
-⭐ *This project demonstrates how unencrypted network protocols expose sensitive data. Always use secure versions in real deployments.*
+ *This project demonstrates how unencrypted network protocols expose sensitive data. Always use secure versions in real deployments.*
 
 ---
 
