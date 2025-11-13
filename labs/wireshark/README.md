@@ -14,7 +14,6 @@ Each lab includes setup instructions, capture steps, applied filters, and screen
 - [SMTP Analysis](#-smtp-analysis)
 - [Protocol Summary](#-protocol-summary)
 - [Security Recommendations](#-security-recommendations)
-- [Credits](#-credits)
 
 ---
 
