@@ -24,7 +24,7 @@ Short, focused demonstrations of specific tools or vulnerabilities.
 | [Wireshark](labs/wireshark/README.md) | Wireshark, HTTP, DNS, FTP, SMTP, DHCP| Wireshark, HTTP, DNS, FTP, SMTP, DHCP, Packet analysis|
 | [Hashcal -Mac](labs/Hashcal-mac/README.md) | Terminal, MD5, SHA| Terminal, MD5, SHA|
 | [Autopsy -Mac](labs/Autopsy/README.md) | Autopsy | Autopsy, Digital forensic |
-| [Nmap -Mac](labs/namp/README.md) | Terminal, nmap, portscanning | Terminal, nmap, portscanning |
+| [Nmap -Mac](labs/nmap/README.md) | Terminal, nmap, portscanning | Terminal, nmap, portscanning |
 
 
 ---
