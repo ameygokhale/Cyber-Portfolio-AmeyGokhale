@@ -26,7 +26,7 @@ Short, focused demonstrations of specific tools or vulnerabilities.
 | [Autopsy -Mac](labs/Autopsy/README.md) | Autopsy | Autopsy, Digital forensic |
 | [Nmap -Mac](labs/nmap/README.md) | Terminal, nmap, portscanning | Terminal, nmap, portscanning |
 | [AbuseIPDB](labs/AbuseIPDB/README.md) | AbuseIPDB, safe IP | AbuseIPDB, SOC, Threat intelligence |
-| [Urlscan.io c](labs/Urlscan.io/README.md) | Urlscan.io | Urlscan.io, Phishing investigations, Malicious URL triage, SOC, Threat intelligence  |
+| [Urlscan.io ](labs/Urlscan.io/README.md) | Urlscan.io | Urlscan.io, Phishing investigations, Malicious URL triage, SOC, Threat intelligence  |
 | [Virustotal](labs/Virustotal/README.md) | Virustotal, Go Defenders, EICAR | Virustotal, Go Defenders, EICAR, SOC, Threat intelligence  |
 | [Hydra](labs/Hydra/README.md) | Hydra, Terminal | Hydra, Terminal, Password Cracking |
 | [John the Ripper](labs/johntheripper/README.md) | john the ripper, Terminal | john the ripper, Terminal, Password Cracking|
