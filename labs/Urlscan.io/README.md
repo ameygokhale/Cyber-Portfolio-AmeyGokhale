@@ -5,7 +5,7 @@ We will analyze the safe AMTSO phishing test page and document each stage with s
 
 ---
 
-# 📘 **What is URLScan.io? (Theory Section)**
+# **What is URLScan.io? (Theory Section)**
 
 **URLScan.io** is an online web analysis sandbox used by security analysts to:
 
