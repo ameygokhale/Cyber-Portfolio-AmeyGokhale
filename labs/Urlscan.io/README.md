@@ -114,7 +114,3 @@ Analysts can inspect phishing components, form actions, and embedded scripts.
 
 ---
 
-
-
-Feel free to expand this lab by scanning additional safe URLs or comparing results.
-
