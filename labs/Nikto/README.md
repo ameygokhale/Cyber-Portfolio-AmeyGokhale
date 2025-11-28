@@ -65,7 +65,7 @@ docker run --rm --platform linux/amd64 -p 80:80 vulnerables/web-dvwa
 ```
 
 📸 **DVWA Startup:**  
-![docker](images/docker.png)
+![docker](images/dockerstrat.png)
 
 ---
 
@@ -85,7 +85,7 @@ nikto -h http://localhost
 ```
 
 
-![nikto](images/nikto.png)
+![nikto](images/niktolocalhost.png)
 
 ---
 ### Tuning Scan  
@@ -113,9 +113,9 @@ firefox nikto-report.html
 
 
  
-![firefox](images/firefox.png)
+![firefox](images/firefoxreport.png)
 
-# 📊 Findings
+# Findings
 
 - Missing secure/httponly cookie flags  
 - Missing security headers  
