@@ -1,4 +1,4 @@
-# 🔍Nikto Web Server Scanning Lab  
+# Nikto Web Server Scanning Lab  
 ### Using DVWA on Kali Linux (VirtualBox on macOS M3)
 
 This project demonstrates a **safe, offline web vulnerability scan** using **Nikto** against a locally-hosted instance of **DVWA (Damn Vulnerable Web Application)** running in a Docker container on a Kali Linux VM.
