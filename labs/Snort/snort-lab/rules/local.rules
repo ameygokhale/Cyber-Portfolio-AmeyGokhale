@@ -1,0 +1,4 @@
+alert icmp any any -> any any (msg:"ICMP test ping detected"; sid:1000001; rev:1;)
+alert tcp any any -> any 80 (msg:"HTTP traffic detected"; sid:1000002; rev:1;)
+alert tcp any any -> any 9999 (msg:"Unexpected Port 9999 Traffic"; sid:1000003; rev:1;)
+
