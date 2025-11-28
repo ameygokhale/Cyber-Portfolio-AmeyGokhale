@@ -112,7 +112,7 @@ firefox nikto-report.html
 ```
 
 
-📸 Browser Report:**  
+ 
 ![firefox](images/firefox.png)
 
 # 📊 Findings
