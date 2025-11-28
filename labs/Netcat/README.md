@@ -46,7 +46,7 @@ sudo systemctl status apache2
 ```
 
 ### Screenshot
-![Apache Status](images/apache_status.png)
+![Apache Status](Images/apache_status.png)
 
 ---
 
@@ -65,7 +65,7 @@ echo "Hello from the same machine" | nc 127.0.0.1 9999
 Terminal A will print the received text.
 
 ### Screenshot
-![Listener 9999](images/listener_9999.png)
+![Listener 9999](Images/listener_9999.png)
 
 ---
 
@@ -86,7 +86,7 @@ nc 127.0.0.1 9999
 Messages typed in one terminal appear in the other.
 
 ### Screenshot
-![Chat on port 9999](images/listener_9999chat.png)
+![Chat on port 9999](Images/listener_9999chat.png)
 
 ---
 
@@ -108,7 +108,7 @@ Host: localhost
 Apache sends raw HTML back.
 
 ### Screenshot
-![HTTP Request](images/http_request.png)
+![HTTP Request](Images/http_request.png)
 
 ---
 
@@ -125,7 +125,7 @@ Netcat reports open ports, such as:
 ```
 
 ### Screenshot
-![Port Scan](images/port_scan.png)
+![Port Scan](Images/port_scan.png)
 
 ---
 
@@ -139,7 +139,7 @@ echo "This is a test file from Kali over Netcat" > test.txt
 ```
 
 ### Screenshot
-![Test File](images/test_file.png)
+![Test File](Images/test_file.png)
 
 ---
 
@@ -158,10 +158,10 @@ nc 127.0.0.1 8888 < test.txt
 ```
 
 ### Screenshot – Sending
-![Sending Test File](images/sendingtestfile.png)
+![Sending Test File](Images/sendingtestfile.png)
 
 ### Screenshot – File Received
-![Received File](images/received_file.png)
+![Received File](Images/received_file.png)
 
 ---
 
@@ -180,7 +180,7 @@ echo "UDP test message" | nc -u 127.0.0.1 7777
 UDP does not guarantee delivery, but locally it's reliable.
 
 ### Screenshot
-![UDP Demo](images/udp_demo.png)
+![UDP Demo](Images/udp_demo.png)
 
 ---
 
@@ -194,7 +194,7 @@ while true; do echo "Service Response: OK" | nc -l -p 5555; done
 ```
 
 ### Screenshot – Service Running
-![Custom Service](images/custom_service.png)
+![Custom Service](Images/custom_service.png)
 
 ---
 
@@ -209,7 +209,7 @@ Service Response: OK
 ```
 
 ### Screenshot
-![Service Response](images/custom_service_response.png)
+![Service Response](Images/custom_service_response.png)
 
 ---
 
