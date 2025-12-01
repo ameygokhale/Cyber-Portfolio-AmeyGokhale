@@ -1,4 +1,4 @@
-# Azure KQL SOC Analysis Labs  
+# Azure KQL Labs  
 Hands-On Security Investigations, Threat Hunting & Detection Engineering with Kusto Query Language (KQL)
 
 This repository contains a complete set of **Microsoft Sentinel–style SOC labs**, built using **Azure Data Explorer’s free Logs dataset**.  
