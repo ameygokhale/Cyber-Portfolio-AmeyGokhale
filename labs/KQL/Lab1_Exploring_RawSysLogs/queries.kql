@@ -1,0 +1,40 @@
+// Lab 1 - Exploring RawSysLogs (Azure Data Explorer / KQL)
+// These queries are designed to be run against help.SampleLogs.RawSysLogs
+// in the Azure Data Explorer "Logs data" sample connection.
+
+// STEP 1 - Baseline: see any 20 rows
+RawSysLogs
+| take 20
+
+
+// STEP 2 - See which 'name' values exist and how many rows each has
+RawSysLogs
+| summarize CountByName = count() by name
+| sort by CountByName desc
+
+
+// STEP 3 - Focus on one common name value
+// 1. Run STEP 2
+// 2. Pick one 'name' from the results (for example: "sqlserver_schedulers")
+// 3. Replace YOUR_EVENT_NAME_HERE with that value and run this:
+RawSysLogs
+| where name == "YOUR_EVENT_NAME_HERE"
+| project timestamp, name, tags
+| sort by timestamp desc
+
+
+// STEP 4 - Group rows by host for that event name
+// Again, replace YOUR_EVENT_NAME_HERE with the same value you chose above.
+RawSysLogs
+| where name == "YOUR_EVENT_NAME_HERE"
+| extend host = tostring(tags["host"])
+| summarize EventCount = count() by host
+| sort by EventCount desc
+
+
+// STEP 5 - Timeline: see counts over time in 10-minute buckets
+RawSysLogs
+| where name == "YOUR_EVENT_NAME_HERE"
+| extend host = tostring(tags["host"])
+| summarize EventCount = count() by host, bin(timestamp, 10m)
+| sort by timestamp asc, host

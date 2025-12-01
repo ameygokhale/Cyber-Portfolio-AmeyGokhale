@@ -1,0 +1,11 @@
+// Detection: High rate of a specific event name per host in 10 minutes
+// Instructions:
+// 1. From Lab 1, choose an event name that represents an error or noisy condition.
+// 2. Replace YOUR_EVENT_NAME_HERE with that value.
+// 3. In Sentinel, this pattern can be used as an analytics rule.
+
+RawSysLogs
+| where name == "YOUR_EVENT_NAME_HERE"
+| extend host = tostring(tags["host"])
+| summarize EventCount = count() by host, bin(timestamp, 10m)
+| where EventCount > 100

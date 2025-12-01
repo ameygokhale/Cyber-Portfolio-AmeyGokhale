@@ -1,0 +1,39 @@
+// Lab 2 - Threat Hunting for Rare Events in RawSysLogs
+// Goal: find 'name' values that are common globally but rare on a specific host,
+// similar to finding unusual behaviour on one machine in a fleet.
+
+// STEP 1 - Global frequency of each name
+RawSysLogs
+| summarize GlobalCount = count() by name
+| sort by GlobalCount desc
+
+
+// STEP 2 - Per-host frequency of each name
+RawSysLogs
+| extend host = tostring(tags["host"])
+| summarize HostCount = count() by host, name
+| sort by host, HostCount desc
+
+
+// STEP 3 - Choose a host that looks interesting from STEP 2
+// Replace YOUR_HOST_HERE with a real host value from the results.
+RawSysLogs
+| extend host = tostring(tags["host"])
+| where host == "YOUR_HOST_HERE"
+| summarize HostCount = count() by name
+| sort by HostCount asc
+
+
+// STEP 4 - Join global vs host counts to find names that are:
+// - Common globally (GlobalCount high)
+// - Rare on this host (HostCount low)
+RawSysLogs
+| extend host = tostring(tags["host"])
+| summarize HostCount = count() by host, name
+| join kind=inner (
+    RawSysLogs
+    | summarize GlobalCount = count() by name
+) on name
+| where host == "YOUR_HOST_HERE"
+| where GlobalCount > 100 and HostCount < 5
+| sort by GlobalCount desc

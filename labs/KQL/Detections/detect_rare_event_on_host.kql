@@ -1,0 +1,14 @@
+// Detection: Rare event name on a given host compared to global frequency
+// Instructions:
+// 1. Choose a target host from Lab 2 results and replace YOUR_HOST_HERE.
+// 2. Adjust thresholds GlobalCount and HostCount if needed.
+
+RawSysLogs
+| extend host = tostring(tags["host"])
+| summarize HostCount = count() by host, name
+| join kind=inner (
+    RawSysLogs
+    | summarize GlobalCount = count() by name
+) on name
+| where host == "YOUR_HOST_HERE"
+| where GlobalCount > 100 and HostCount < 3
