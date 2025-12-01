@@ -107,6 +107,7 @@ RawSysLogs
 ```
 
 Screenshot: `screenshots/step5.png`
+![Step 5](screenshots/step5.png)
 
 ---
 
