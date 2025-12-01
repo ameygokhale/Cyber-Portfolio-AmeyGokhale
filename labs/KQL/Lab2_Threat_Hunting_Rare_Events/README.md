@@ -24,6 +24,7 @@ RawSysLogs
 ```
 
 Screenshot: `screenshots/step1.png`
+![Step 1](screenshots/step1.png)
 
 ---
 
@@ -40,6 +41,7 @@ RawSysLogs
 ```
 
 Screenshot: `screenshots/step2.png`
+![Step 2](screenshots/step2.png)
 
 ---
 
@@ -59,6 +61,7 @@ RawSysLogs
 ```
 
 Screenshot: `screenshots/step3.png`
+![Step 3](screenshots/step3.png)
 
 ---
 
@@ -81,6 +84,7 @@ RawSysLogs
 ```
 
 Screenshot: `screenshots/step4.png`
+![Step 4](screenshots/step4.png)
 
 ---
 
