@@ -17,7 +17,7 @@ The goal of this project is to demonstrate practical skills in:
 
 
 
-# 🧪 **Lab 1 – Exploring RawSysLogs (Baseline Analysis)**
+# **Lab 1 – Exploring RawSysLogs (Baseline Analysis)**
 
 **Objective:**  
 Learn essential KQL techniques used in Microsoft Sentinel:
@@ -29,13 +29,13 @@ Learn essential KQL techniques used in Microsoft Sentinel:
 
 ---
 
-# 🕵️ **Lab 2 – Threat Hunting: Rare vs. Common Events**
+# **Lab 2 – Threat Hunting: Rare vs. Common Events**
 
 Learn how to compare global vs. host-specific behavior to detect anomalies.
 
 ---
 
-# 🚨 Detection Engineering (Microsoft Sentinel Style)
+# Detection Engineering (Microsoft Sentinel Style)
 
 Includes two analytic rule templates:
 
