@@ -9,27 +9,81 @@ Each folder contains detailed methodology, sanitized screenshots, and remediatio
 
 ---
 
-## 🧪 Labs
+# 🧪 Labs
+
 Short, focused demonstrations of specific tools or vulnerabilities.
+
+---
+
+# Web Application Security
 
 | Lab | Tools / Focus | Tags |
 |-----|----------------|------|
-| [DVWA SQL Injection](labs/dvwa-sqli/README.md) | sqlmap,DVWA | Web App Security, SQLi |
-| [Arp Spoofing Bettercap](labs/arp-spoofing-bettercap/README.md) | Arp, Bettercap | Arp, Bettercap, Spoofing |
-| [MITM Bettercap](labs/MITM-attack-bettercap/README.md) | MITM, Bettercap | MITM, Bettercap |
-| [Dns Spoofing Bettercap](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Bettercap, Spoofing |
-| [GPG Suit](labs/gpg-suit/README.md) | GPG-suit| GPG-suit, Asymmetric encryption|
-| [Veracrypt](labs/veracrypt/README.md) | veracrypt| veracrypt, symmetric encryption|
-| [Burpsuit](labs/burpsuit/README.md) | burpsuit, Intruder, Repeater| Burpsuit|
-| [Wireshark](labs/wireshark/README.md) | Wireshark, HTTP, DNS, FTP, SMTP, DHCP| Wireshark, HTTP, DNS, FTP, SMTP, DHCP, Packet analysis|
-| [Hashcal -Mac](labs/Hashcal-mac/README.md) | Terminal, MD5, SHA| Terminal, MD5, SHA|
-| [Autopsy -Mac](labs/Autopsy/README.md) | Autopsy | Autopsy, Digital forensic |
-| [Nmap -Mac](labs/nmap/README.md) | Terminal, nmap, portscanning | Terminal, nmap, portscanning |
-| [AbuseIPDB](labs/AbuseIPDB/README.md) | AbuseIPDB, safe IP | AbuseIPDB, SOC, Threat intelligence |
-| [Urlscan.io ](labs/Urlscan.io/README.md) | Urlscan.io | Urlscan.io, Phishing investigations, Malicious URL triage, SOC, Threat intelligence  |
-| [Virustotal](labs/Virustotal/README.md) | Virustotal, Go Defenders, EICAR | Virustotal, Go Defenders, EICAR, SOC, Threat intelligence  |
-| [Hydra](labs/Hydra/README.md) | Hydra, Terminal | Hydra, Terminal, Password Cracking |
-| [John the Ripper](labs/johntheripper/README.md) | john the ripper, Terminal | john the ripper, Terminal, Password Cracking|
+| [DVWA SQL Injection](labs/dvwa-sqli/README.md) | SQLMap, DVWA | Web App Security, SQLi |
+| [Nikto](labs/Nikto/README.md) | Nikto | Web Scanning |
+| [Burp Suite](labs/burpsuit/README.md) | Burp Suite, Intruder, Repeater | Burp Suite |
+
+---
+
+# Network Attacks & Analysis
+
+| Lab | Tools / Focus | Tags |
+|-----|----------------|------|
+| [ARP Spoofing (Bettercap)](labs/arp-spoofing-bettercap/README.md) | ARP, Bettercap | ARP, Spoofing, Bettercap |
+| [MITM (Bettercap)](labs/MITM-attack-bettercap/README.md) | MITM, Bettercap | MITM, Bettercap |
+| [DNS Spoofing (Bettercap)](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Spoofing, Bettercap |
+| [Wireshark](labs/wireshark/README.md) | Wireshark, HTTP, DNS, FTP, SMTP, DHCP | Packet Analysis |
+| [tcpdump](labs/jtcpdump/README.md) | tcpdump | Packet Capture, Terminal |
+| [Netcat](labs/Netcat/README.md) | Netcat | Terminal, Networking |
+| [Nmap (Mac)](labs/nmap/README.md) | Nmap, Port Scanning | Port Scanning |
+
+---
+
+# Cryptography
+
+| Lab | Tools / Focus | Tags |
+|-----|----------------|------|
+| [GPG Suite](labs/gpg-suit/README.md) | GPG Suite | Asymmetric Encryption |
+| [VeraCrypt](labs/veracrypt/README.md) | VeraCrypt | Symmetric Encryption |
+| [HashCalc (Mac)](labs/Hashcal-mac/README.md) | MD5, SHA | Hashing |
+
+---
+
+# Digital Forensics
+
+| Lab | Tools / Focus | Tags |
+|-----|----------------|------|
+| [Autopsy (Mac)](labs/Autopsy/README.md) | Autopsy | Digital Forensics |
+
+---
+
+# Offensive Security / Pentesting
+
+| Lab | Tools / Focus | Tags |
+|-----|----------------|------|
+| [Metasploit](labs/Metasploit/README.md) | Metasploit | Pentesting |
+| [Hydra](labs/Hydra/README.md) | Hydra | Password Cracking |
+| [John the Ripper](labs/johntheripper/README.md) | John the Ripper | Password Cracking |
+
+---
+
+# Threat Intelligence & SOC Tools
+
+| Lab | Tools / Focus | Tags |
+|-----|----------------|------|
+| [AbuseIPDB](labs/AbuseIPDB/README.md) | AbuseIPDB | Threat Intelligence, SOC |
+| [urlscan.io](labs/Urlscan.io/README.md) | urlscan.io | Phishing Analysis, URL Triage |
+| [VirusTotal](labs/Virustotal/README.md) | VirusTotal, GoDefender, EICAR | Threat Intelligence, Malware Analysis |
+| [KQL](labs/KQL/README.md) | KQL Playground | SIEM, Query Language |
+
+---
+
+# Misc Tools
+
+| Lab | Tools / Focus | Tags |
+|-----|----------------|------|
+| [CyberChef](labs/cyberchef/README.md) | CyberChef | Encoding / Decoding / Analysis |
+| [Snort](labs/SnortREADME.md) | Snort | IDS, Network Security |
 
 
 ---
