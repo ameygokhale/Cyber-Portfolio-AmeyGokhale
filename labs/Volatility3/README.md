@@ -130,7 +130,7 @@ Anomalies include:
 - Suspicious process names mimicking system files  
 
 ### Screenshot 5.2  
-![Screenshot 5.2 – pstree output](simages/Screenshot5.2.png)
+![Screenshot 5.2 – pstree output](images/Screenshot5.2.png)
 
 ---
 
