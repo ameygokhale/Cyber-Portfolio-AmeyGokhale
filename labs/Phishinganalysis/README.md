@@ -48,7 +48,7 @@ sudo apt install -y python3 python3-pip ripmime
 pip3 install --break-system-packages eml_parser oletools
 ```
 
-![Screenshot](images/A2.png)
+![Screenshot](images/A1.png)
 
 ---
 
@@ -63,7 +63,7 @@ wget "https://raw.githubusercontent.com/.../sample-100.eml" -O phish1.eml
 ls
 ```
 
-![Screenshot](images/A3.png)
+![Screenshot](images/A2.png)
 
 ---
 
@@ -83,7 +83,7 @@ Analysts use this to determine whether the email was legitimately sent.
 less phish1.eml
 ```
 
-![Screenshot](images/A4.png)
+![Screenshot](images/A3.png)
 
 ---
 
@@ -100,7 +100,7 @@ Manual header review is useful, but automated parsing:
 python3 parse_eml.py > parsed.json
 ```
 
-![Screenshot](images/A5.png)
+![Screenshot](images/A4.png)
 
 ---
 
@@ -120,7 +120,7 @@ This makes automated triage fast and consistent.
 less parsed.json
 ```
 
-![Screenshot](images/A6.png)
+![Screenshot](images/A5.png)
 
 ---
 
@@ -140,7 +140,7 @@ mkdir attachments
 ripmime -i phish1.eml -d attachments
 ```
 
-![Screenshot](images/A7.png)
+![Screenshot](images/A6.png)
 
 ---
 
@@ -159,7 +159,7 @@ file textfile0
 head -20 textfile0
 ```
 
-![Screenshot](images/A8.png)
+![Screenshot](images/A7.png)
 
 ---
 
@@ -176,7 +176,7 @@ mv textfile0 phish_page.html
 firefox phish_page.html &
 ```
 
-![Screenshot](images/A9.png)
+![Screenshot](images/A8.png)
 
 ---
 
