@@ -179,6 +179,7 @@ firefox phish_page.html &
 ```
 
 ![Screenshot](images/A9.png)
+![Screenshot](images/A11.png)
 
 ---
 
@@ -202,7 +203,7 @@ grep -oE 'https?://[^"'\' ]+' phish_page.html | sort -u
 
 ![Screenshot](images/A10.png)
 
-![Screenshot](images/A11.png)
+
 
 ---
 
