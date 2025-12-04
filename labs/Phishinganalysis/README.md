@@ -102,6 +102,8 @@ python3 parse_eml.py > parsed.json
 
 ![Screenshot](images/A4.png)
 
+![Screenshot](images/A5.png)
+
 ---
 
 ## 6. Reviewing Parsed Output  
@@ -120,7 +122,7 @@ This makes automated triage fast and consistent.
 less parsed.json
 ```
 
-![Screenshot](images/A5.png)
+![Screenshot](images/A6.png)
 
 ---
 
@@ -140,7 +142,7 @@ mkdir attachments
 ripmime -i phish1.eml -d attachments
 ```
 
-![Screenshot](images/A6.png)
+![Screenshot](images/A7.png)
 
 ---
 
@@ -159,7 +161,7 @@ file textfile0
 head -20 textfile0
 ```
 
-![Screenshot](images/A7.png)
+![Screenshot](images/A8.png)
 
 ---
 
@@ -176,7 +178,7 @@ mv textfile0 phish_page.html
 firefox phish_page.html &
 ```
 
-![Screenshot](images/A8.png)
+![Screenshot](images/A9.png)
 
 ---
 
