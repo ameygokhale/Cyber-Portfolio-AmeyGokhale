@@ -2,7 +2,7 @@
 # Windows Memory Analysis with Volatility 3  
 **DFIR / Memory Forensics Practical**
 
-# 📘 Theory – Why Memory Forensics?
+# Theory – Why Memory Forensics?
 
 Memory forensics focuses on analyzing a RAM dump to uncover activity that may **never touch the disk**, including:
 
@@ -29,7 +29,7 @@ sudo apt install -y python3 python3-pip git
 ```
 
 ### Screenshot 1  
-![Screenshot 1 – python3/pip/git installed](screenshots/Screenshot1.png)
+![Screenshot 1 – python3/pip/git installed](images/Screenshot1.png)
 
 ---
 
@@ -48,9 +48,9 @@ Volatility 3 is written in Python and requires parsing libraries for Windows ker
 Running `--help` confirms the installation and lists available plugins.
 
 ### Screenshots 2.1–2.3  
-![Screenshot 2.1](screenshots/Screenshot2.1.png)
-![Screenshot 2.2](screenshots/Screenshot2.2.png)
-![Screenshot 2.3](screenshots/Screenshot2.3.png)
+![Screenshot 2.1](images/Screenshot2.1.png)
+![Screenshot 2.2](images/Screenshot2.2.png)
+![Screenshot 2.3](images/Screenshot2.3.png)
 
 ---
 
@@ -69,7 +69,7 @@ Memory dump formats vary: `.raw`, `.mem`, `.vmp`, `.lime`.
 `file` confirms the dump is recognized and intact.
 
 ### Screenshot 3  
-![Screenshot 3 – dump.raw verification](screenshots/Screenshot3.png)
+![Screenshot 3 – dump.raw verification](images/Screenshot3.png)
 
 ---
 
@@ -90,7 +90,7 @@ python3 ~/volatility3/vol.py -f dump.raw windows.info
 This confirms Volatility parsed the dump correctly.
 
 ### Screenshot 4  
-![Screenshot 4 – windows.info output](screenshots/Screenshot4.png)
+![Screenshot 4 – windows.info output](images/Screenshot4.png)
 
 ---
 
@@ -110,7 +110,7 @@ python3 vol.py -f dump.raw windows.pslist
 It **does not** show hidden or unlinked processes.
 
 ### Screenshot 5.1  
-![Screenshot 5.1 – pslist output](screenshots/Screenshot5.1.png)
+![Screenshot 5.1 – pslist output](images/Screenshot5.1.png)
 
 ---
 
@@ -130,7 +130,7 @@ Anomalies include:
 - Suspicious process names mimicking system files  
 
 ### Screenshot 5.2  
-![Screenshot 5.2 – pstree output](screenshots/Screenshot5.2.png)
+![Screenshot 5.2 – pstree output](simages/Screenshot5.2.png)
 
 ---
 
@@ -150,7 +150,7 @@ This finds:
 - Malware unlinking itself from the active list  
 
 ### Screenshot 6  
-![Screenshot 6 – psscan output](screenshots/Screenshot6.png)
+![Screenshot 6 – psscan output](images/Screenshot6.png)
 
 ---
 
@@ -173,7 +173,7 @@ Used to identify:
 - Suspicious remote sessions
 
 ### Screenshot 7  
-![Screenshot 7 – netstat output](screenshots/Screenshot7.png)
+![Screenshot 7 – netstat output](images/Screenshot7.png)
 
 ---
 
@@ -198,7 +198,7 @@ You look for:
 - JMP-to-register sequences  
 
 ### Screenshot 8  
-![Screenshot 8 – malfind output](screenshots/Screenshot8.png)
+![Screenshot 8 – malfind output](images/Screenshot8.png)
 
 ---
 
