@@ -202,6 +202,8 @@ grep -oE 'https?://[^"'\' ]+' phish_page.html | sort -u
 
 ![Screenshot](images/A10.png)
 
+![Screenshot](images/A11.png)
+
 ---
 
 # 📄 Part B – Macro Document Analysis
