@@ -54,6 +54,8 @@ Short, focused demonstrations of specific tools or vulnerabilities.
 | Lab | Tools / Focus | Tags |
 |-----|----------------|------|
 | [Autopsy (Mac)](labs/Autopsy/README.md) | Autopsy | Digital Forensics |
+| [Phishing Email Analysis](labs/Phishinganalysis/README.md) | ripmime, eml_parser, oletools | Digital Forensics |
+| [Volatility3](labs/Volatility3/README.md) | Volatility3 | Digital Forensics |
 
 ---
 
