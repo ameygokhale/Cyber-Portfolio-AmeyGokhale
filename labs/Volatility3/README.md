@@ -202,7 +202,7 @@ You look for:
 
 ---
 
-# Summary (Add This to Your Submission)
+# Summary
 
 **Suspicious process identified:**  
 - Injected memory inside `svchost.exe`  
