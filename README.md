@@ -1,112 +1,123 @@
-# Cyber-Portfolio-AmeyGokhale
-Hands-on cybersecurity portfolio: labs &amp; projects
+# Cybersecurity Portfolio – Amey Gokhale  
+Hands-on labs • Practical security projects • End-to-end assessments  
 
-Practical cybersecurity portfolio combining **labs** (tool-based exercises) and **projects** (end-to-end implementations).  
-Covers penetration testing, network security, cloud hardening, digital forensics, embedded cybersecurity, and cryptography.
+This portfolio highlights my **practical, hands-on experience** across penetration testing, network security, SIEM operations, digital forensics, cryptography, malware analysis, IoT security, and threat intelligence.
 
-All experiments were conducted in **isolated lab environments**.  
-Each folder contains detailed methodology, sanitized screenshots, and remediation recommendations.
-
----
-
-# 🧪 Labs
-
-Short, focused demonstrations of specific tools or vulnerabilities.
+All labs were performed in **isolated, intentionally vulnerable environments**.  
+Each folder includes methodology, sanitized screenshots, analysis, and remediation steps.
 
 ---
 
-# Web Application Security
+# 🧪 Labs  
+Focused, tool-based cybersecurity exercises demonstrating real applied skills.
+
+---
+
+## Web Application Security
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [DVWA SQL Injection](labs/dvwa-sqli/README.md) | SQLMap, DVWA | Web App Security, SQLi |
-| [Nikto](labs/Nikto/README.md) | Nikto | Web Scanning |
-| [Burp Suite](labs/burpsuit/README.md) | Burp Suite, Intruder, Repeater | Burp Suite |
+|-----|---------------|------|
+| [DVWA – SQL Injection](labs/dvwa-sqli/README.md) | SQLMap, Manual SQLi | SQLi, Web Security |
+| [Nikto Scan](labs/Nikto/README.md) | Web scanning & enumeration | Recon |
+| [Burp Suite Labs](labs/burpsuit/README.md) | Intruder, Repeater, Proxy | Burp Suite, Web Testing |
 
 ---
 
-# Network Attacks & Analysis
+## Network Attacks & Analysis
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [ARP Spoofing (Bettercap)](labs/arp-spoofing-bettercap/README.md) | ARP, Bettercap | ARP, Spoofing, Bettercap |
-| [MITM (Bettercap)](labs/MITM-attack-bettercap/README.md) | MITM, Bettercap | MITM, Bettercap |
-| [DNS Spoofing (Bettercap)](labs/dns-spoofing-bettercap/README.md) | DNS, Bettercap | DNS, Spoofing, Bettercap |
-| [Wireshark](labs/wireshark/README.md) | Wireshark, HTTP, DNS, FTP, SMTP, DHCP | Packet Analysis |
-| [tcpdump](labs/jtcpdump/README.md) | tcpdump | Packet Capture, Terminal |
-| [Netcat](labs/Netcat/README.md) | Netcat | Terminal, Networking |
-| [Nmap (Mac)](labs/nmap/README.md) | Nmap, Port Scanning | Port Scanning |
+|-----|---------------|------|
+| [ARP Spoofing](labs/arp-spoofing-bettercap/README.md) | Bettercap, ARP poisoning | MITM, L2 Attacks |
+| [MITM Attack](labs/MITM-attack-bettercap/README.md) | Traffic interception, HTTPS behavior | MITM |
+| [DNS Spoofing](labs/dns-spoofing-bettercap/README.md) | DNS manipulation | DNS, Spoofing |
+| [Wireshark Analysis](labs/wireshark/README.md) | HTTP, DNS, FTP, SMTP, DHCP | Packet Analysis |
+| [tcpdump Capture](labs/jtcpdump/README.md) | CLI packet capture | Networking |
+| [Netcat](labs/Netcat/README.md) | Banner grabbing, file transfer | Networking |
+| [Nmap](labs/nmap/README.md) | Scanning, OS detection | Recon |
 
 ---
 
-# Cryptography
+## Cryptography
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [GPG Suite](labs/gpg-suit/README.md) | GPG Suite | Asymmetric Encryption |
-| [VeraCrypt](labs/veracrypt/README.md) | VeraCrypt | Symmetric Encryption |
-| [HashCalc (Mac)](labs/Hashcal-mac/README.md) | MD5, SHA | Hashing |
+|-----|---------------|------|
+| [GPG Suite](labs/gpg-suit/README.md) | Asymmetric encryption | Encryption |
+| [VeraCrypt](labs/veracrypt/README.md) | Symmetric disk encryption | Disk Security |
+| [HashCalc](labs/Hashcal-mac/README.md) | MD5, SHA hashing | Integrity |
 
 ---
 
-# Digital Forensics
+## Digital Forensics
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [Autopsy (Mac)](labs/Autopsy/README.md) | Autopsy | Digital Forensics |
-| [Phishing Email Analysis](labs/Phishinganalysis/README.md) | ripmime, eml_parser, oletools | Digital Forensics |
-| [Volatility3](labs/Volatility3/README.md) | Volatility3 | Digital Forensics |
+|-----|---------------|------|
+| [Autopsy](labs/Autopsy/README.md) | File system analysis | Forensics |
+| [Phishing Email Analysis](labs/Phishinganalysis/README.md) | ripmime, eml_parser, oletools | Email Forensics |
+| [Volatility3](labs/Volatility3/README.md) | Memory forensics | RAM Analysis |
 
 ---
 
-# Offensive Security / Pentesting
+## Offensive Security / Pentesting
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [Metasploit](labs/Metasploit/README.md) | Metasploit | Pentesting |
-| [Hydra](labs/Hydra/README.md) | Hydra | Password Cracking |
-| [John the Ripper](labs/johntheripper/README.md) | John the Ripper | Password Cracking |
+|-----|---------------|------|
+| [Metasploit](labs/Metasploit/README.md) | Exploitation, payloads | Pentesting |
+| [Hydra](labs/Hydra/README.md) | Brute-force testing | Password Cracking |
+| [John the Ripper](labs/johntheripper/README.md) | Hash cracking | Password Attacks |
 
 ---
 
-# Threat Intelligence & SOC Tools
+## Threat Intelligence & SOC Tools
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [AbuseIPDB](labs/AbuseIPDB/README.md) | AbuseIPDB | Threat Intelligence, SOC |
-| [urlscan.io](labs/Urlscan.io/README.md) | urlscan.io | Phishing Analysis, URL Triage |
-| [VirusTotal](labs/Virustotal/README.md) | VirusTotal, GoDefender, EICAR | Threat Intelligence, Malware Analysis |
-| [KQL](labs/KQL/README.md) | KQL Playground | SIEM, Query Language |
+|-----|---------------|------|
+| [AbuseIPDB](labs/AbuseIPDB/README.md) | IP reputation analysis | Threat Intel |
+| [urlscan.io](labs/Urlscan.io/README.md) | Phishing URL triage | SOC |
+| [VirusTotal](labs/Virustotal/README.md) | Malware analysis, EICAR test | Malware |
+| [KQL](labs/KQL/README.md) | SIEM query development | KQL, SOC |
+| [Splunk SIEM Lab](labs/Splunk/README.md) | Log ingestion, dashboards, correlation searches, alerts | SIEM, Splunk |
 
 ---
 
-# Misc Tools
+## Misc Tools
 
 | Lab | Tools / Focus | Tags |
-|-----|----------------|------|
-| [CyberChef](labs/cyberchef/README.md) | CyberChef | Encoding / Decoding / Analysis |
-| [Snort](labs/SnortREADME.md) | Snort | IDS, Network Security |
-
-
----
-
-## 🚀 Projects
-Larger, scenario-based builds showing end-to-end skills.
-
-| Project | Summary | Tools |
-|----------|----------|-------|
-| [Smart Plug Security Audit](Projects/Smart_Plug_Security_Audi/README.md) | This project presents a detailed case study on the cybersecurity assessment of a Wi-Fi enabled Smart Plug, a common consumer IoT device that allows remote control and energy monitoring of electronic appliances.The objective of this research is to analyze the security posture of the device using real world assessment methodologies including Threat Modeling, Firmware Analysis, Network Traffic Inspection, and Software Bill of Materials (SBOM) Evaluation | Wireshark,USB-to-Serial Adapter,Logic Analyzer,Firmware Extractor,Microsoft Threat Modeling Tool|
-
-
+|-----|---------------|------|
+| [CyberChef](labs/cyberchef/README.md) | Data transformation | Analysis |
+| [Snort IDS](labs/SnortREADME.md) | Network intrusion detection | IDS |
 
 ---
 
+# 🚀 Projects  
+Larger, scenario-based security assessments demonstrating end-to-end skills.
 
+---
 
+## Smart Plug Security Audit  
+**Folder:** [Projects/Smart_Plug_Security_Audi](Projects/Smart_Plug_Security_Audi/README.md)
 
+A complete security assessment of a Wi-Fi enabled Smart Plug, covering:
 
-## 📫 Contact
-LinkedIn: www.linkedin.com/in/amey-gokhale 
-Email: ameygokhale1@gmail.com 
+- Threat modeling  
+- Firmware extraction & analysis  
+- UART debugging  
+- Logic analyzer testing  
+- Network traffic inspection  
+- SBOM evaluation  
+- Vulnerability findings & remediation recommendations  
 
-> **Ethical notice:** All testing and analysis described here was performed on intentionally vulnerable, isolated systems. Do **not** use these techniques on systems you do not own or have written permission to test.
+**Tools:** Wireshark, USB-to-Serial, Logic Analyzer, Firmware Extractor, Microsoft Threat Modeling Tool
+
+---
+
+# 📫 Contact
+
+**LinkedIn:** https://www.linkedin.com/in/amey-gokhale  
+**Email:** ameygokhale1@gmail.com  
+
+---
+
+> ⚠️ **Ethical Notice**  
+> All testing was performed on systems I own or have explicit permission to test.  
+> This portfolio does **not** encourage unauthorized access or unethical hacking.
+
