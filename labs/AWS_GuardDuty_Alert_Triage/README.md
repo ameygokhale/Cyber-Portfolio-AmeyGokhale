@@ -1,10 +1,10 @@
-# 🧪 Lab 1 – AWS GuardDuty Alert Triage
+# AWS GuardDuty Alert Triage
 
 This lab demonstrates how to enable **Amazon GuardDuty**, generate minimal activity using a low‑privilege IAM user, and practice reviewing & triaging GuardDuty findings.
 
 ---
 
-## 📘 **1. Overview**
+## **1. Overview**
 In this lab, you will:
 - Enable **Amazon GuardDuty**
 - Create an IAM user with limited permissions
@@ -15,14 +15,14 @@ In this lab, you will:
 
 ---
 
-## ✅ **2. Prerequisites**
+## **2. Prerequisites**
 - AWS account (Free Tier preferred)
 - IAM user with admin permissions
 - Selected region (e.g., **N. Virginia – us-east-1**)
 
 ---
 
-## 🛠️ **3. Steps**
+## **3. Steps**
 
 ---
 
@@ -35,7 +35,7 @@ In this lab, you will:
    - Click **Enable GuardDuty**
 5. Confirm "GuardDuty is enabled" appears.
 
-📸 **Screenshot G1 – GuardDuty Enabled**
+**Screenshot G1 – GuardDuty Enabled**
 
 ![G1](images/G1.png)
 
@@ -50,7 +50,7 @@ In this lab, you will:
    - Search & select: **AmazonS3ReadOnlyAccess**
 5. Click **Next** → **Create user**.
 
-📸 **Screenshot G2 – IAM User Summary**
+**Screenshot G2 – IAM User Summary**
 
 ![G2](images/G2.png)
 
@@ -67,13 +67,13 @@ In this lab, you will:
    - Access Key ID
    - Secret Access Key (⚠️ do not expose publicly)
 
-📸 **Screenshot G3 – Access Key Created**
+**Screenshot G3 – Access Key Created**
 
 ![G3](images/G3.png)
 
 ---
 
-## **Step 4 – (Optional) Generate API Activity with AWS CLI**
+## **Step 4 – Generate API Activity with AWS CLI**
 This activity creates CloudTrail events that GuardDuty may use to generate findings.
 
 ### Configure AWS CLI
@@ -91,7 +91,7 @@ aws iam list-users --profile suspicious-analyst
 
 Some may fail with `UnauthorizedOperation` or `AccessDenied` — this is expected.
 
-📸 **Screenshot – CLI Output**
+**Screenshot – CLI Output**
 
 ![CLI](images/cli.png)
 
@@ -115,17 +115,17 @@ You should review the following fields:
 - **Timestamps (first seen / last seen)**
 - **Recommended remediation**
 
-📸 **Screenshot G4 – GuardDuty Finding Details**
+**Screenshot G4 – GuardDuty Finding Details**
 
 ![G4](images/G4.png)
 
-📸 **Screenshot G5 – Findings List**
+**Screenshot G5 – Findings List**
 
 ![G5](images/G5.png)
 
 ---
 
-## 🧹 **4. Cleanup**
+## **4. Cleanup**
 ### Disable GuardDuty (to avoid charges later)
 1. Go to **GuardDuty → Settings**.
 2. Click **Disable GuardDuty** → confirm.
@@ -134,14 +134,3 @@ You should review the following fields:
 1. Go to **IAM → Users**.
 2. Select `suspicious-analyst-lab`.
 3. Click **Delete user**.
-
----
-
-## 🎉 **Lab Completed!**
-You successfully:
-- Enabled Amazon GuardDuty
-- Created a test IAM user & generated API activity
-- Reviewed GuardDuty findings and practiced alert triage
-
-This gives you foundational skills in AWS threat detection, IAM abuse detection, and cloud security investigation.
-
