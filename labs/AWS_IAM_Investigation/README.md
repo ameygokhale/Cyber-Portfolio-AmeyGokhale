@@ -1,10 +1,10 @@
-# 🧪 Lab 2 – AWS IAM Investigation
+# AWS IAM Investigation
 
 This lab walks through creating a limited-permission IAM user, generating login/S3 activity, inspecting permissions, and analyzing user actions with CloudTrail.
 
 ---
 
-## 📘 **1. Overview**
+## **1. Overview**
 In this lab, you will:
 - Create an IAM user
 - Investigate their permissions
@@ -13,13 +13,13 @@ In this lab, you will:
 
 ---
 
-## ✅ **2. Prerequisites**
+## **2. Prerequisites**
 - AWS Console access with admin rights
 - CloudTrail **Event history** enabled (default for most accounts)
 
 ---
 
-## 🛠️ **3. Steps**
+## **3. Steps**
 
 ---
 
@@ -33,7 +33,7 @@ In this lab, you will:
 5. Click **Next** → **Create user**.
 6. Open the user page.
 
-📸 **Screenshot I1 – IAM User Created**
+**Screenshot I1 – IAM User Created**
 
 ![I1](images/I1.pmg.png)
 
@@ -48,7 +48,7 @@ In this lab, you will:
 6. Navigate to **S3**, view bucket list, maybe open a bucket.
 7. Log out.
 
-📸 **Screenshot – Logged in as IAM user**
+**Screenshot – Logged in as IAM user**
 
 ![LoginAsLab](images/loginaslab.png)
 
@@ -62,7 +62,7 @@ In this lab, you will:
    - **Groups** tab → confirm no groups (unless added)
    - **Access Advisor** tab → shows last accessed services
 
-📸 **Screenshot I2 – Access Advisor**
+**Screenshot I2 – Access Advisor**
 
 ![AccessAdvisor](images/l2.png)
 
@@ -84,27 +84,19 @@ In this lab, you will:
    - `userIdentity.arn`
    - `requestParameters`
 
-📸 **Screenshot I3 – Event History (Filtered)**
+**Screenshot I3 – Event History (Filtered)**
 
 ![EventHistory](images/l3.png)
 
-📸 **Screenshot I4 – Event Details**
+**Screenshot I4 – Event Details**
 
 ![EventDetails](images/l4.png)
 
 ---
 
-## 🧹 **4. Cleanup**
+## **4. Cleanup**
 1. Go to **IAM → Users**.
 2. Select `lab-iam-investigation`.
 3. Click **Delete user** → confirm.
 
 ---
-
-## 🎉 **Lab Completed!**
-You successfully:
-- Created and analyzed an IAM user
-- Viewed permissions and Access Advisor data
-- Investigated activity using CloudTrail
-
-This gives you practical experience in AWS identity forensics and security investigations.
