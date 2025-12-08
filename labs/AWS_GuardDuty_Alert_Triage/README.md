@@ -37,7 +37,7 @@ In this lab, you will:
 
 **Screenshot G1 – GuardDuty Enabled**
 
-![G1](images/G1.png)
+![G1](images/G2.png)
 
 ---
 
@@ -52,7 +52,7 @@ In this lab, you will:
 
 **Screenshot G2 – IAM User Summary**
 
-![G2](images/G2.png)
+![G2](images/G3.png)
 
 ---
 
@@ -69,7 +69,7 @@ In this lab, you will:
 
 **Screenshot G3 – Access Key Created**
 
-![G3](images/G3.png)
+![G3](images/G4.png)
 
 ---
 
@@ -117,11 +117,7 @@ You should review the following fields:
 
 **Screenshot G4 – GuardDuty Finding Details**
 
-![G4](images/G4.png)
-
-**Screenshot G5 – Findings List**
-
-![G5](images/G5.png)
+![G4](images/G5.png)
 
 ---
 
