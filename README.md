@@ -79,7 +79,7 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 ---
 
-# ☁️ Cloud Security
+# Cloud Security
 
 ## AWS Security Labs
 
