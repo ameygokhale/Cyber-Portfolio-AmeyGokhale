@@ -63,6 +63,9 @@ In this lab you will:
 
 ![Deployment Progress](images/D3.png)
 
+**Screenshot D4 – Deployment Progress**
+![Recommendations](images/D4.png)
+
 ---
 
 ## **Step 3 – View Defender for Cloud Recommendations**
@@ -84,10 +87,6 @@ After a few minutes, Defender for Cloud begins analyzing the VM.
    - Remediation steps
 
 **Screenshot D4 – Defender Recommendations**
-
-![Recommendations](images/D4.png)
-
-**Screenshot D5 – Recommendation Detail Page**
 
 ![Recommendation Details](images/D5.png)
 
