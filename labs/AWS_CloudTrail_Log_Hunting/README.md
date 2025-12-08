@@ -1,10 +1,10 @@
-# 🧪 LAB 3 – AWS CloudTrail Log Hunting
+# AWS CloudTrail Log Hunting
 
 This lab focuses on understanding how AWS CloudTrail captures API activity across your AWS environment, and how to hunt for specific events such as logins, IAM modifications, and S3 activity.
 
 CloudTrail is a foundational AWS security tool because it records actions taken by users, roles, and AWS services. Being able to investigate CloudTrail logs is a core skill in cloud security, IR, and compliance.
 
-## 📘 1. Overview
+## 1. Overview
 
 In this lab, you will:
 
@@ -16,22 +16,22 @@ In this lab, you will:
   - S3 operations
 - Understand how individual AWS actions generate audit logs
 
-## 🧱 2. Prerequisites
+## 2. Prerequisites
 
 - AWS account (Free Tier compatible)
 - Administrator-level permissions
 - CloudTrail Event history enabled (default)
 - S3 permissions (if creating a Trail)
 
-## 🧪 3. Lab Steps
+## 3. Lab Steps
 
 ---
 
-## ✅ Step 1 – Verify or Create a CloudTrail Trail
+## Step 1 – Verify or Create a CloudTrail Trail
 
 CloudTrail can operate in *Event history* mode (free, last 90 days) or in *Trailed logging* stored in S3 (recommended for forensics & long-term retention).
 
-### 🔹 Instructions:
+### Instructions:
 
 1. Open CloudTrail from AWS Console.
 2. In the left sidebar, click **Trails**.
@@ -43,14 +43,14 @@ CloudTrail can operate in *Event history* mode (free, last 90 days) or in *Trail
    - Accept default settings
    - Click **Create trail**
 
-### 📸 Screenshot C1 – CloudTrail trail enabled  
+### Screenshot C1 – CloudTrail trail enabled  
 ![CloudTrail Trail](images/c1.png)
 
 This verifies CloudTrail is continuously logging your account’s activity.
 
 ---
 
-## ✅ Step 2 – Generate Console Activity
+## Step 2 – Generate Console Activity
 
 To generate useful logs:
 
@@ -70,18 +70,18 @@ These logs will later appear in Event History.
 
 ---
 
-## ✅ Step 3 – Hunt Console Logins
+## Step 3 – Hunt Console Logins
 
 One of the first things in any investigation is checking who logged into the AWS Console.
 
-### 🔹 Instructions:
+### Instructions:
 
 1. Open **CloudTrail → Event history**
 2. Set lookup attribute: **Event name**
 3. Enter: `ConsoleLogin`
 4. Click **Search**
 
-### 📸 Screenshot C2 – ConsoleLogin event  
+### Screenshot C2 – ConsoleLogin event  
 ![Console Login](images/c2.png)
 
 ### 🔍 What to examine:
@@ -94,7 +94,7 @@ One of the first things in any investigation is checking who logged into the AWS
 
 ---
 
-## ✅ Step 4 – Hunt IAM Changes
+## Step 4 – Hunt IAM Changes
 
 IAM actions are extremely important to monitor because they relate to:
 
@@ -103,7 +103,7 @@ IAM actions are extremely important to monitor because they relate to:
 - new user/role creation  
 - policy attachment  
 
-### 🔹 Instructions:
+### Instructions:
 
 In **Event history**, filter for IAM activity:
 
@@ -114,7 +114,7 @@ In **Event history**, filter for IAM activity:
 | `PutUserPolicy`       | A custom inline policy was added      |
 | `DeleteUser`          | An IAM user was deleted               |
 
-### 📸 Screenshot C3 – IAM CreateUser events  
+### Screenshot C3 – IAM CreateUser events  
 ![IAM Events](images/c3.png)
 
 ### 🔍 What to check:
@@ -125,11 +125,11 @@ In **Event history**, filter for IAM activity:
 
 ---
 
-## ✅ Step 5 – Hunt S3 Activity
+## Step 5 – Hunt S3 Activity
 
 S3 is commonly targeted by attackers. CloudTrail tracks all S3 API operations.
 
-### 🔹 Instructions:
+### Instructions:
 
 1. Clear previous filters
 2. Set lookup attribute: **Event source**
@@ -144,12 +144,12 @@ This reveals actions such as:
 - `PutObject`
 - `DeleteBucket`
 
-### 📸 Screenshot C4 – S3 Activity  
+### Screenshot C4 – S3 Activity  
 ![S3 Activity](images/c4.png)
 
 ---
 
-# 🧹 4. Cleanup
+# 4. Cleanup
 
 Optional, but recommended:
 
@@ -162,16 +162,3 @@ Optional, but recommended:
 
 This prevents unintended costs.
 
----
-
-# 🎉 Lab Completed
-
-You have successfully:
-
-- Created and validated a CloudTrail trail
-- Generated AWS activity
-- Investigated console logins
-- Analyzed IAM changes
-- Reviewed S3 access logs
-
-This lab strengthens your AWS forensics and cloud security investigation skills.
