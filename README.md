@@ -1,7 +1,7 @@
-# Cybersecurity Portfolio – Amey Gokhale  
-Hands-on labs • Practical security projects • End-to-end assessments  
+# Cybersecurity Portfolio – Amey Gokhale
+Hands-on labs • Practical security projects • End-to-end assessments
 
-This portfolio highlights my **practical, hands-on experience** across penetration testing, network security, SIEM operations, digital forensics, cryptography, malware analysis, IoT security, and threat intelligence.
+This portfolio highlights my **practical, hands-on experience** across penetration testing, network security, SIEM operations, digital forensics, cryptography, malware analysis, IoT security, cloud security, and threat intelligence.
 
 All labs were performed in **isolated, intentionally vulnerable environments**.  
 Each folder includes methodology, sanitized screenshots, analysis, and remediation steps.
@@ -17,9 +17,9 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [DVWA – SQL Injection](labs/dvwa-sqli/README.md) | SQLMap, Manual SQLi | SQLi, Web Security |
-| [Nikto Scan](labs/Nikto/README.md) | Web scanning & enumeration | Recon |
-| [Burp Suite Labs](labs/burpsuit/README.md) | Intruder, Repeater, Proxy | Burp Suite, Web Testing |
+| DVWA – SQL Injection | SQLMap, Manual SQLi | SQLi, Web Security |
+| Nikto Scan | Web scanning & enumeration | Recon |
+| Burp Suite Labs | Intruder, Repeater, Proxy | Burp Suite, Web Testing |
 
 ---
 
@@ -27,13 +27,13 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [ARP Spoofing](labs/arp-spoofing-bettercap/README.md) | Bettercap, ARP poisoning | MITM, L2 Attacks |
-| [MITM Attack](labs/MITM-attack-bettercap/README.md) | Traffic interception, HTTPS behavior | MITM |
-| [DNS Spoofing](labs/dns-spoofing-bettercap/README.md) | DNS manipulation | DNS, Spoofing |
-| [Wireshark Analysis](labs/wireshark/README.md) | HTTP, DNS, FTP, SMTP, DHCP | Packet Analysis |
-| [tcpdump Capture](labs/jtcpdump/README.md) | CLI packet capture | Networking |
-| [Netcat](labs/Netcat/README.md) | Banner grabbing, file transfer | Networking |
-| [Nmap](labs/nmap/README.md) | Scanning, OS detection | Recon |
+| ARP Spoofing | Bettercap, ARP poisoning | MITM, L2 Attacks |
+| MITM Attack | Traffic interception, HTTPS behavior | MITM |
+| DNS Spoofing | DNS manipulation | DNS, Spoofing |
+| Wireshark Analysis | HTTP, DNS, FTP, SMTP, DHCP | Packet Analysis |
+| tcpdump Capture | CLI packet capture | Networking |
+| Netcat | Banner grabbing, file transfer | Networking |
+| Nmap | Scanning, OS detection | Recon |
 
 ---
 
@@ -41,9 +41,9 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [GPG Suite](labs/gpg-suit/README.md) | Asymmetric encryption | Encryption |
-| [VeraCrypt](labs/veracrypt/README.md) | Symmetric disk encryption | Disk Security |
-| [HashCalc](labs/Hashcal-mac/README.md) | MD5, SHA hashing | Integrity |
+| GPG Suite | Asymmetric encryption | Encryption |
+| VeraCrypt | Symmetric disk encryption | Disk Security |
+| HashCalc | MD5, SHA hashing | Integrity |
 
 ---
 
@@ -51,9 +51,9 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [Autopsy](labs/Autopsy/README.md) | File system analysis | Forensics |
-| [Phishing Email Analysis](labs/Phishinganalysis/README.md) | ripmime, eml_parser, oletools | Email Forensics |
-| [Volatility3](labs/Volatility3/README.md) | Memory forensics | RAM Analysis |
+| Autopsy | File system analysis | Forensics |
+| Phishing Email Analysis | ripmime, eml_parser, oletools | Email Forensics |
+| Volatility3 | Memory forensics | RAM Analysis |
 
 ---
 
@@ -61,9 +61,9 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [Metasploit](labs/Metasploit/README.md) | Exploitation, payloads | Pentesting |
-| [Hydra](labs/Hydra/README.md) | Brute-force testing | Password Cracking |
-| [John the Ripper](labs/johntheripper/README.md) | Hash cracking | Password Attacks |
+| Metasploit | Exploitation, payloads | Pentesting |
+| Hydra | Brute-force testing | Password Cracking |
+| John the Ripper | Hash cracking | Password Attacks |
 
 ---
 
@@ -71,31 +71,39 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [AbuseIPDB](labs/AbuseIPDB/README.md) | IP reputation analysis | Threat Intel |
-| [urlscan.io](labs/Urlscan.io/README.md) | Phishing URL triage | SOC |
-| [VirusTotal](labs/Virustotal/README.md) | Malware analysis, EICAR test | Malware |
-| [KQL](labs/KQL/README.md) | SIEM query development | KQL, SOC |
-| [Splunk SIEM Lab](labs/Splunk/README.md) | Log ingestion, dashboards, correlation searches, alerts | SIEM, Splunk |
+| AbuseIPDB | IP reputation analysis | Threat Intel |
+| urlscan.io | Phishing URL triage | SOC |
+| VirusTotal | Malware analysis, EICAR test | Malware |
+| KQL | SIEM query development | KQL, SOC |
+| Splunk SIEM Lab | Log ingestion, dashboards, correlation searches, alerts | SIEM, Splunk |
 
 ---
 
-## Misc Tools
+# ☁️ Cloud Security
+
+## AWS Security Labs
 
 | Lab | Tools / Focus | Tags |
 |-----|---------------|------|
-| [CyberChef](labs/cyberchef/README.md) | Data transformation | Analysis |
-| [Snort IDS](labs/SnortREADME.md) | Network intrusion detection | IDS |
+| AWS CloudTrail Log Hunting | CloudTrail, Event correlation, Threat hunting | AWS, IR |
+| AWS GuardDuty Alert Triage | GuardDuty findings, threat categorization | AWS, Threat Detection |
+| AWS IAM Investigation | IAM permissions, privilege escalation analysis | AWS, IAM |
+| AWS S3 Bucket Attack & Defense | S3 misconfigurations, enumeration, exploit & mitigation | AWS, Cloud Pentest |
+
+---
+
+## Azure Security Labs
+
+| Lab | Tools / Focus | Tags |
+|-----|---------------|------|
+| Azure Defender for Cloud | Threat detection, cloud posture management | Azure, CSPM |
+| Azure Log Analytics & KQL | KQL queries, log hunting, SIEM operations | Azure, KQL |
 
 ---
 
 # 🚀 Projects  
-Larger, scenario-based security assessments demonstrating end-to-end skills.
-
----
 
 ## Smart Plug Security Audit  
-**Folder:** [Projects/Smart_Plug_Security_Audi](Projects/Smart_Plug_Security_Audi/README.md)
-
 A complete security assessment of a Wi-Fi enabled Smart Plug, covering:
 
 - Threat modeling  
@@ -120,4 +128,3 @@ A complete security assessment of a Wi-Fi enabled Smart Plug, covering:
 > ⚠️ **Ethical Notice**  
 > All testing was performed on systems I own or have explicit permission to test.  
 > This portfolio does **not** encourage unauthorized access or unethical hacking.
-
