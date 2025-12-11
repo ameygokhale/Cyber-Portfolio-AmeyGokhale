@@ -127,7 +127,7 @@ Justification: Allows VLAN tags to pass between switches.
 - Configure trunk link between switches  
 - Ensure router trunk matches VLANs  
 
-![Topology](images/image6.png)
+![Topology](images/image6.jpg)
 
 ### Successful Ping / Trace Output
 
