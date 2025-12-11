@@ -1,12 +1,5 @@
 # Internet Speed Test & Command Prompt
 
-*CSCI 5010 – Fundamentals of Data Communications*  
-*University of Colorado Boulder*  
-*Department of Computer Science – Network Engineering*  
-*Professor Levi Perigo, Ph.D.*
-
----
-
 ## Summary
 
 This lab provides an introduction to:
