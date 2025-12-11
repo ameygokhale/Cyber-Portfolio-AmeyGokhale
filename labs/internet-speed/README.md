@@ -39,8 +39,6 @@ Speed test results differed due to real‑time bandwidth availability, congestio
 
 ### Wireless Test
 
-![Wireless Speed Test](images/wireless.png)
-
 Wired test not performed (no Ethernet port).
 
 **Analysis:** Wi‑Fi experiences interference and obstacles; Ethernet is more stable.
