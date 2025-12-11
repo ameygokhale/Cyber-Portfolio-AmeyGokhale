@@ -100,6 +100,16 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 | [Azure Log Analytics & KQL](labs/Azure_Log_Analytics_&_KQL/README.md) | KQL queries, log hunting, SIEM operations | Azure, KQL |
 
 ---
+## Network Engineering Labs
+| Lab                                                       | Tools / Focus                                        | Tags                    |
+| --------------------------------------------------------- | ---------------------------------------------------- | ----------------------- |
+| [Internet Speed Test](labs/internet-speed/README.md)        | Speed tests, wireless vs wired, CMD networking tools | Networking, Diagnostics |
+| [Cisco IOS & STP](labs/ios-stp/README.md)            | VLANs, Spanning Tree Protocol, MAC tables            | Switching, STP          |
+| [IP Addressing](labs/ip-addressing/README.md)              | IPv4/IPv6, subnetting, ARP, packet flow              | IP, Subnetting          |
+| [VLANs & Inter-VLAN Routing](labs/vlans/README.md) | VLANs, trunking, router-on-a-stick                   | VLANs, Routing          |
+| [Static & Dynamic Routing](labs/routing/README.md)   | RIPv2, OSPF, routing tables, failover                | Routing                 |
+| [DHCP & DNS](labs/dhcp-dns/README.md)                 | DHCP pools, lease process, DNS resolution            | DHCP, DNS               |
+| [Wireless Networking](labs/wireless/README.md)        | Wi-Fi AP config, roaming, WEP, channels              | Wireless, Wi-Fi         |
 
 # 🚀 Projects  
 
