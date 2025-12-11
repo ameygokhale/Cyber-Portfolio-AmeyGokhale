@@ -24,7 +24,7 @@ Both must be in the **same subnet** for Layer‑3 communication.
 
 ### **Ping Screenshot**
 
-![Ping VLAN 10](images/image1.png)
+![Ping VLAN 10](images/image1.jpg)
 
 ---
 
@@ -35,7 +35,7 @@ Both must be in the **same subnet** for Layer‑3 communication.
 
 ### **Show VLAN Output**
 
-![Show VLAN](images/image2.png)
+![Show VLAN](images/image2.jpg)
 
 ### Assigning PCs to VLANs
 
