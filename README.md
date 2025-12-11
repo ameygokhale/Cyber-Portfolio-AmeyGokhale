@@ -129,6 +129,22 @@ A complete security assessment of a Wi-Fi enabled Smart Plug, covering:
 
 **Tools:** Wireshark, USB-to-Serial, Logic Analyzer, Firmware Extractor, Microsoft Threat Modeling Tool
 
+## Deleted Data Recovery Mechanism for IoT Devices  
+**Folder:** [Projects/IoT_Deleted_Data_Recovery](Projects/IoT_Deleted_Data_Recovery/README.md)
+
+A full forensic investigation project focused on recovering deleted data from IoT device storage using industry-standard digital forensics workflows. The project covers:
+
+- Forensic imaging of IoT device storage  
+- Hash-based image integrity verification (MD5/SHA256)  
+- File carving & data carving techniques  
+- Keyword-based analysis to identify deleted artifacts  
+- Memory analysis & metadata extraction  
+- Signature-based recovery using Foremost (Linux)  
+- Investigation workflow and detailed documentation  
+
+**Tools:** Autopsy, Foremost, Write Blocker, Linux (`dd`, `md5sum`), hex-based analysis tools
+
+
 ---
 
 # 📫 Contact
