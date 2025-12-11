@@ -17,7 +17,7 @@ This lab introduces core routing concepts including:
 
 ### **Topology Screenshot**
 
-![Topology](images/image1.png)
+![Topology](images/image1.jpg)
 
 ### Requirements
 
@@ -72,7 +72,7 @@ Initial, one-hop, and two-hop distance-vector tables were calculated for all nod
 
 ### Example Image
 
-![Distance Vector](images/image7.png)
+![Distance Vector](images/image7.jpg)
 
 ---
 
@@ -88,7 +88,7 @@ Steps:
 
 ### Final Routing Table for Node D
 
-![LS Table](images/image8.png)
+![LS Table](images/image8.jpg)
 
 ---
 
@@ -98,7 +98,7 @@ Shortest-path analysis from **v3 → v5**.
 
 ### Result Screenshot
 
-![Dijkstra](images/image9.png)
+![Dijkstra](images/image9.jpg)
 
 ---
 
