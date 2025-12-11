@@ -104,7 +104,7 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 # 🚀 Projects  
 
 ## Smart Plug Security Audit  
-**Folder:** [Projects/Smart_Plug_Security_Audi](Projects/Smart%20Plug%20Security%20Audit/README.md)
+**Folder:** [Projects/Smart_Plug_Security_Audi](Projects/Smart%20Plug%20Security%20Audi/README.md)
 
 A complete security assessment of a Wi-Fi enabled Smart Plug, covering:
 
