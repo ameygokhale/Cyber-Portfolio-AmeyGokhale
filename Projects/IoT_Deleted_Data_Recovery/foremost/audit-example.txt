@@ -1,0 +1,6 @@
+Foremost audit.txt example (short excerpt)
+-----------------------------------------
+Recovered files:  124
+Errors:           0
+Categories: jpg, png, pdf, txt
+Output directory: ./foremost_output
