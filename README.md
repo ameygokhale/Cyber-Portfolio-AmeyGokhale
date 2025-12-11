@@ -54,6 +54,7 @@ Focused, tool-based cybersecurity exercises demonstrating real applied skills.
 | [Autopsy](labs/Autopsy/README.md) | File system analysis | Forensics |
 | [Phishing Email Analysis](labs/Phishinganalysis/README.md) | ripmime, eml_parser, oletools | Email Forensics |
 | [Volatility3](labs/Volatility3/README.md) | Memory forensics | RAM Analysis |
+| [Ghidra Malware Reverse Engineering](labs/ghidra/README.md) | Ghidra, ELF analysis, malware behavior | Reverse Engineering, Malware |
 
 ---
 
