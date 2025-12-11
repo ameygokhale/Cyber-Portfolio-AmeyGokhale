@@ -72,7 +72,7 @@ Initial, one-hop, and two-hop distance-vector tables were calculated for all nod
 
 ### Example Image
 
-![Distance Vector](images/image7.jpg)
+![Distance Vector](images/image7.emf)
 
 ---
 
@@ -88,7 +88,7 @@ Steps:
 
 ### Final Routing Table for Node D
 
-![LS Table](images/image8.jpg)
+![LS Table](images/image8.emf)
 
 ---
 
