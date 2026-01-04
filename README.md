@@ -145,6 +145,68 @@ A full forensic investigation project focused on recovering deleted data from Io
 **Tools:** Autopsy, Foremost, Write Blocker, Linux (`dd`, `md5sum`), hex-based analysis tools
 
 
+
+## Adaptive Web Application Firewall (Adaptive WAF)
+
+**Folder:** [https://github.com/ameygokhale/adaptive-waf](https://github.com/ameygokhale/adaptive-waf)
+
+A **defensive cybersecurity engineering project** focused on designing and implementing an **adaptive Web Application Firewall** that goes beyond static signature-based filtering by incorporating **behavioral analysis, machine learning, and real-time telemetry**.
+
+The project demonstrates how modern WAFs can dynamically respond to evolving attack patterns while maintaining visibility and reducing false positives.
+
+### Project Coverage
+
+* Web application reconnaissance and endpoint discovery
+* Custom rule engine design and evaluation
+* Adaptive request filtering logic
+* Integration with ModSecurity for industry-standard WAF rules
+* Machine learning–based anomaly detection for abnormal traffic patterns
+* Centralized logging and monitoring dashboard
+
+### Security Outcomes
+
+* Improved detection of unknown and low-and-slow attacks
+* Reduced reliance on static rule sets
+* Enhanced observability for SOC and blue team operations
+
+**Tools & Technologies:**
+Python, ModSecurity, Web Traffic Analysis, Machine Learning, Anomaly Detection, Logging & Monitoring
+
+---
+
+## AegisMind – AI-Based Cybersecurity Monitoring & Behavioral Anomaly Detection
+
+**Folder:** [https://github.com/Mosshead-marimo/AegisMind](https://github.com/Mosshead-marimo/AegisMind)
+
+A comprehensive **blue-team and SOC-focused project** that implements a **real-time cybersecurity monitoring system** capable of detecting abnormal system behavior using **AI-driven behavioral analytics**.
+
+AegisMind simulates how modern security operations platforms combine **machine learning, behavioral baselining, and threat-framework mapping** to support faster and more accurate incident detection and response.
+
+### Project Coverage
+
+* Behavioral feature engineering from system and activity data
+* Ensemble-based anomaly detection using:
+
+  * Autoencoders
+  * Isolation Forest
+  * One-Class SVM
+* Real-time anomaly scoring and alerting
+* Mapping detected behaviors to MITRE ATT&CK tactics
+* Cyber command-center style dashboard for SOC visibility
+* Automated threat reporting and analysis summaries
+
+### Security Outcomes
+
+* Early detection of suspicious and insider-like behavior
+* Improved analyst context through tactic-based reasoning
+* Demonstration of AI-assisted SOC decision support
+
+**Tools & Technologies:**
+Python, Machine Learning, Behavioral Analytics, MITRE ATT&CK, SOC Dashboards, Threat Detection
+
+
+
+
 ---
 
 # 📫 Contact
