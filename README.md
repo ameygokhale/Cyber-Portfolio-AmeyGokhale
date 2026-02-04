@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔐 Cybersecurity Portfolio
+# Cybersecurity Portfolio
 ### Amey Gokhale
 **Security Engineer | Cloud Security | SOC Operations | Digital Forensics**
 
@@ -9,7 +9,7 @@
 
 ---
 
-### 🛡️ Portfolio Overview
+### Portfolio Overview
 This repository documents my **hands-on security engineering work**.
 It moves beyond theory into **practical execution**, featuring end-to-end assessments, custom tool development, and cloud security implementations.
 
@@ -31,38 +31,38 @@ It moves beyond theory into **practical execution**, featuring end-to-end assess
 
 ---
 
-# 🚀 Featured Major Projects
+# Featured Major Projects
 *Complex, end-to-end engineering and assessment projects.*
 
-### 1. 🔌 [Smart Plug Security Assessment](Projects/Smart%20Plug%20Security%20Audi/README.md)
+### 1. [Smart Plug Security Assessment](Projects/Smart%20Plug%20Security%20Audi/README.md)
 **Domain:** IoT Security & Hardware Hacking
 A complete black-box security assessment of a Wi-Fi-enabled Smart Plug.
 * **Techniques:** UART debugging, Firmware extraction, Logic Analyzer testing, Network traffic interception.
 * **Outcome:** Identified vulnerabilities in communication protocols and firmware logic; produced a full threat model.
 * **Tools:** `Wireshark` `UART` `Logic Analyzer` `Microsoft Threat Modeling Tool`
 
-### 2. 🛡️ [Adaptive Web Application Firewall (Adaptive WAF)](https://github.com/ameygokhale/adaptive-waf)
+### 2. [Adaptive Web Application Firewall (Adaptive WAF)](https://github.com/ameygokhale/adaptive-waf)
 **Domain:** DevSecOps & Application Security
 Designed an adaptive WAF that moves beyond static signatures by using behavioral analysis.
 * **Key Feature:** Integrates Machine Learning to detect anomaly-based attacks that bypass traditional rules.
 * **Outcome:** Reduced false positives and improved detection of "low-and-slow" attacks.
 * **Tools:** `Python` `ModSecurity` `Machine Learning` `Traffic Analysis`
 
-### 3. 💾 [IoT Deleted Data Recovery Forensic Framework](Projects/IoT_Deleted_Data_Recovery/README.md)
+### 3. [IoT Deleted Data Recovery Forensic Framework](Projects/IoT_Deleted_Data_Recovery/README.md)
 **Domain:** Digital Forensics
 A forensic investigation project focusing on recovering deleted artifacts from IoT storage media.
 * **Techniques:** File carving, hash-based integrity verification, and metadata extraction.
 * **Outcome:** Successfully recovered deleted data using signature-based recovery (Foremost).
 * **Tools:** `Autopsy` `Foremost` `dd` `Volatility`
 
-### 4. 🧠 [AegisMind – AI-Driven SOC Monitoring](https://github.com/Mosshead-marimo/AegisMind)
+### 4. [AegisMind – AI-Driven SOC Monitoring](https://github.com/Mosshead-marimo/AegisMind)
 **Domain:** SOC Automation & AI
 A real-time monitoring system using AI to map behavioral anomalies to MITRE ATT&CK tactics.
 * **Outcome:** Simulates modern SOC tooling to detect insider threats and abnormal system behavior.
 
 ---
 
-# ☁️ Cloud Security Labs
+# Cloud Security Labs
 *Infrastructure-as-Code auditing, logging, and defense.*
 
 ### AWS Security
@@ -81,7 +81,7 @@ A real-time monitoring system using AI to map behavioral anomalies to MITRE ATT&
 
 ---
 
-# 👁️ SOC & Threat Intelligence
+# SOC & Threat Intelligence
 *Log analysis, SIEM operations, and malware triage.*
 
 | Lab | Focus & Methodology | Tools Used |
@@ -93,7 +93,7 @@ A real-time monitoring system using AI to map behavioral anomalies to MITRE ATT&
 
 ---
 
-# ⚔️ Offensive Security & Network
+# Offensive Security & Network
 *Red Teaming, Network Exploitation, and Web Security.*
 
 | Lab | Description | Tools |
@@ -105,7 +105,7 @@ A real-time monitoring system using AI to map behavioral anomalies to MITRE ATT&
 
 ---
 
-# 🔍 Digital Forensics & Malware
+# Digital Forensics & Malware
 *Artifact analysis and reverse engineering.*
 
 | Lab | Scope | Tools |
@@ -117,7 +117,7 @@ A real-time monitoring system using AI to map behavioral anomalies to MITRE ATT&
 
 ---
 
-# 📡 Network Engineering
+# Network Engineering
 *Fundamental networking protocols and infrastructure.*
 
 | Lab | Topic | Tags |
