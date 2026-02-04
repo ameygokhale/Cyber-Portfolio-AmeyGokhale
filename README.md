@@ -1,222 +1,136 @@
-# Cybersecurity Portfolio – Amey Gokhale
-Hands-on labs • Practical security projects • End-to-end assessments
+<div align="center">
 
-This portfolio highlights my **practical, hands-on experience** across penetration testing, network security, SIEM operations, digital forensics, cryptography, malware analysis, IoT security, cloud security, and threat intelligence.
+# 🔐 Cybersecurity Portfolio
+### Amey Gokhale
+**Security Engineer | Cloud Security | SOC Operations | Digital Forensics**
 
-All labs were performed in **isolated, intentionally vulnerable environments**.  
-Each folder includes methodology, sanitized screenshots, analysis, and remediation steps.
-
----
-
-# 🧪 Labs  
-Focused, tool-based cybersecurity exercises demonstrating real applied skills.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amey-gokhale)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-red?style=for-the-badge&logo=gmail)](mailto:ameygokhale1@gmail.com)
 
 ---
 
-## Web Application Security
+### 🛡️ Portfolio Overview
+This repository documents my **hands-on security engineering work**.
+It moves beyond theory into **practical execution**, featuring end-to-end assessments, custom tool development, and cloud security implementations.
 
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [DVWA – SQL Injection](labs/dvwa-sqli/README.md) | SQLMap, Manual SQLi | SQLi, Web Security |
-| [Nikto Scan](labs/Nikto/README.md) | Web scanning & enumeration | Recon |
-| [Burp Suite Labs](labs/burpsuit/README.md) | Intruder, Repeater, Proxy | Burp Suite, Web Testing |
+**Core Domains:**
+`Cloud Security (AWS/Azure)` • `SOC & SIEM` • `Digital Forensics` • `IoT Security` • `Penetration Testing`
 
----
+<br>
 
-## Network Attacks & Analysis
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-007FFF?style=flat&logo=microsoft-azure&logoColor=white)
+![Splunk](https://img.shields.io/badge/Splunk-000000?style=flat&logo=splunk&logoColor=white)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat&logo=burpsuite&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-333333?style=flat&logo=metasploit&logoColor=white)
+![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kalilinux&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [ARP Spoofing](labs/arp-spoofing-bettercap/README.md) | Bettercap, ARP poisoning | MITM, L2 Attacks |
-| [MITM Attack](labs/MITM-attack-bettercap/README.md) | Traffic interception, HTTPS behavior | MITM |
-| [DNS Spoofing](labs/dns-spoofing-bettercap/README.md) | DNS manipulation | DNS, Spoofing |
-| [Wireshark Analysis](labs/wireshark/README.md) | HTTP, DNS, FTP, SMTP, DHCP | Packet Analysis |
-| [tcpdump Capture](labs/jtcpdump/README.md) | CLI packet capture | Networking |
-| [Netcat](labs/Netcat/README.md) | Banner grabbing, file transfer | Networking |
-| [Nmap](labs/nmap/README.md) | Scanning, OS detection | Recon |
+</div>
 
 ---
 
-## Cryptography
+# 🚀 Featured Major Projects
+*Complex, end-to-end engineering and assessment projects.*
 
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [GPG Suite](labs/gpg-suit/README.md) | Asymmetric encryption | Encryption |
-| [VeraCrypt](labs/veracrypt/README.md) | Symmetric disk encryption | Disk Security |
-| [HashCalc](labs/Hashcal-mac/README.md) | MD5, SHA hashing | Integrity |
+### 1. 🔌 [Smart Plug Security Assessment](Projects/Smart%20Plug%20Security%20Audi/README.md)
+**Domain:** IoT Security & Hardware Hacking
+A complete black-box security assessment of a Wi-Fi-enabled Smart Plug.
+* **Techniques:** UART debugging, Firmware extraction, Logic Analyzer testing, Network traffic interception.
+* **Outcome:** Identified vulnerabilities in communication protocols and firmware logic; produced a full threat model.
+* **Tools:** `Wireshark` `UART` `Logic Analyzer` `Microsoft Threat Modeling Tool`
 
----
+### 2. 🛡️ [Adaptive Web Application Firewall (Adaptive WAF)](https://github.com/ameygokhale/adaptive-waf)
+**Domain:** DevSecOps & Application Security
+Designed an adaptive WAF that moves beyond static signatures by using behavioral analysis.
+* **Key Feature:** Integrates Machine Learning to detect anomaly-based attacks that bypass traditional rules.
+* **Outcome:** Reduced false positives and improved detection of "low-and-slow" attacks.
+* **Tools:** `Python` `ModSecurity` `Machine Learning` `Traffic Analysis`
 
-## Digital Forensics
+### 3. 💾 [IoT Deleted Data Recovery Forensic Framework](Projects/IoT_Deleted_Data_Recovery/README.md)
+**Domain:** Digital Forensics
+A forensic investigation project focusing on recovering deleted artifacts from IoT storage media.
+* **Techniques:** File carving, hash-based integrity verification, and metadata extraction.
+* **Outcome:** Successfully recovered deleted data using signature-based recovery (Foremost).
+* **Tools:** `Autopsy` `Foremost` `dd` `Volatility`
 
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [Autopsy](labs/Autopsy/README.md) | File system analysis | Forensics |
-| [Phishing Email Analysis](labs/Phishinganalysis/README.md) | ripmime, eml_parser, oletools | Email Forensics |
-| [Volatility3](labs/Volatility3/README.md) | Memory forensics | RAM Analysis |
-| [Ghidra Malware Reverse Engineering](labs/ghidra/README.md) | Ghidra, ELF analysis, malware behavior | Reverse Engineering, Malware |
-
----
-
-## Offensive Security / Pentesting
-
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [Metasploit](labs/Metasploit/README.md) | Exploitation, payloads | Pentesting |
-| [Hydra](labs/Hydra/README.md) | Brute-force testing | Password Cracking |
-| [John the Ripper](labs/johntheripper/README.md) | Hash cracking | Password Attacks |
-
----
-
-## Threat Intelligence & SOC Tools
-
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [AbuseIPDB](labs/AbuseIPDB/README.md) | IP reputation analysis | Threat Intel |
-| [urlscan.io](labs/Urlscan.io/README.md) | Phishing URL triage | SOC |
-| [VirusTotal](labs/Virustotal/README.md) | Malware analysis, EICAR test | Malware |
-| [KQL](labs/KQL/README.md) | SIEM query development | KQL, SOC |
-| [Splunk SIEM Lab](labs/Splunk/README.md) | Log ingestion, dashboards, correlation searches, alerts | SIEM, Splunk |
+### 4. 🧠 [AegisMind – AI-Driven SOC Monitoring](https://github.com/Mosshead-marimo/AegisMind)
+**Domain:** SOC Automation & AI
+A real-time monitoring system using AI to map behavioral anomalies to MITRE ATT&CK tactics.
+* **Outcome:** Simulates modern SOC tooling to detect insider threats and abnormal system behavior.
 
 ---
 
-# Cloud Security
+# ☁️ Cloud Security Labs
+*Infrastructure-as-Code auditing, logging, and defense.*
 
-## AWS Security Labs
+### AWS Security
+| Lab | Focus Area | Tech Stack |
+| :--- | :--- | :--- |
+| **[AWS CloudTrail Log Hunting](labs/AWS_CloudTrail_Log_Hunting/README.md)** | Event Correlation & IR | `CloudTrail` `Athena` |
+| **[AWS GuardDuty Alert Triage](labs/AWS_GuardDuty_Alert_Triage/README.md)** | Threat Detection | `GuardDuty` `AWS Security Hub` |
+| **[AWS IAM Investigation](labs/AWS_IAM_Investigation/README.md)** | Privilege Escalation | `IAM` `Policy Simulator` |
+| **[S3 Bucket Attack & Defense](labs/AWS_S3_Bucket_Attack_&_Defense/README.md)** | Cloud Pentesting | `S3` `AWS CLI` |
 
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [AWS CloudTrail Log Hunting](labs/AWS_CloudTrail_Log_Hunting/README.md) | CloudTrail, Event correlation, Threat hunting | AWS, IR |
-| [AWS GuardDuty Alert Triage](labs/AWS_GuardDuty_Alert_Triage/README.md) | GuardDuty findings, threat categorization | AWS, Threat Detection |
-| [AWS IAM Investigation](labs/AWS_IAM_Investigation/README.md) | IAM permissions, privilege escalation analysis | AWS, IAM |
-| [AWS S3 Bucket Attack & Defense](labs/AWS_S3_Bucket_Attack_&_Defense/README.md) | S3 misconfigurations, enumeration, exploit & mitigation | AWS, Cloud Pentest |
-
----
-
-## Azure Security Labs
-
-| Lab | Tools / Focus | Tags |
-|-----|---------------|------|
-| [Azure Defender for Cloud](labs/Azure_Defender_for_Cloud/README.md) | Threat detection, cloud posture management | Azure, CSPM |
-| [Azure Log Analytics & KQL](labs/Azure_Log_Analytics_&_KQL/README.md) | KQL queries, log hunting, SIEM operations | Azure, KQL |
-
----
-## Network Engineering Labs
-| Lab                                                       | Tools / Focus                                        | Tags                    |
-| --------------------------------------------------------- | ---------------------------------------------------- | ----------------------- |
-| [Internet Speed Test](labs/internet-speed/README.md)        | Speed tests, wireless vs wired, CMD networking tools | Networking, Diagnostics |
-| [Cisco IOS & STP](labs/ios-stp/README.md)            | VLANs, Spanning Tree Protocol, MAC tables            | Switching, STP          |
-| [IP Addressing](labs/ip-addressing/README.md)              | IPv4/IPv6, subnetting, ARP, packet flow              | IP, Subnetting          |
-| [VLANs & Inter-VLAN Routing](labs/vlans/README.md) | VLANs, trunking, router-on-a-stick                   | VLANs, Routing          |
-| [Static & Dynamic Routing](labs/routing/README.md)   | RIPv2, OSPF, routing tables, failover                | Routing                 |
-| [DHCP & DNS](labs/dhcp-dns/README.md)                 | DHCP pools, lease process, DNS resolution            | DHCP, DNS               |
-| [Wireless Networking](labs/wireless/README.md)        | Wi-Fi AP config, roaming, WEP, channels              | Wireless, Wi-Fi         |
-
-# 🚀 Projects  
-
-## Smart Plug Security Audit  
-**Folder:** [Projects/Smart_Plug_Security_Audi](Projects/Smart%20Plug%20Security%20Audi/README.md)
-
-A complete security assessment of a Wi-Fi enabled Smart Plug, covering:
-
-- Threat modeling  
-- Firmware extraction & analysis  
-- UART debugging  
-- Logic analyzer testing  
-- Network traffic inspection  
-- SBOM evaluation  
-- Vulnerability findings & remediation recommendations  
-
-**Tools:** Wireshark, USB-to-Serial, Logic Analyzer, Firmware Extractor, Microsoft Threat Modeling Tool
-
-## Deleted Data Recovery Mechanism for IoT Devices  
-**Folder:** [Projects/IoT_Deleted_Data_Recovery](Projects/IoT_Deleted_Data_Recovery/README.md)
-
-A full forensic investigation project focused on recovering deleted data from IoT device storage using industry-standard digital forensics workflows. The project covers:
-
-- Forensic imaging of IoT device storage  
-- Hash-based image integrity verification (MD5/SHA256)  
-- File carving & data carving techniques  
-- Keyword-based analysis to identify deleted artifacts  
-- Memory analysis & metadata extraction  
-- Signature-based recovery using Foremost (Linux)  
-- Investigation workflow and detailed documentation  
-
-**Tools:** Autopsy, Foremost, Write Blocker, Linux (`dd`, `md5sum`), hex-based analysis tools
-
-
-
-## Adaptive Web Application Firewall (Adaptive WAF)
-
-**Folder:** [https://github.com/ameygokhale/adaptive-waf](https://github.com/ameygokhale/adaptive-waf)
-
-A **defensive cybersecurity engineering project** focused on designing and implementing an **adaptive Web Application Firewall** that goes beyond static signature-based filtering by incorporating **behavioral analysis, machine learning, and real-time telemetry**.
-
-The project demonstrates how modern WAFs can dynamically respond to evolving attack patterns while maintaining visibility and reducing false positives.
-
-### Project Coverage
-
-* Web application reconnaissance and endpoint discovery
-* Custom rule engine design and evaluation
-* Adaptive request filtering logic
-* Integration with ModSecurity for industry-standard WAF rules
-* Machine learning–based anomaly detection for abnormal traffic patterns
-* Centralized logging and monitoring dashboard
-
-### Security Outcomes
-
-* Improved detection of unknown and low-and-slow attacks
-* Reduced reliance on static rule sets
-* Enhanced observability for SOC and blue team operations
-
-**Tools & Technologies:**
-Python, ModSecurity, Web Traffic Analysis, Machine Learning, Anomaly Detection, Logging & Monitoring
+### Azure Security
+| Lab | Focus Area | Tech Stack |
+| :--- | :--- | :--- |
+| **[Defender for Cloud](labs/Azure_Defender_for_Cloud/README.md)** | CSPM & Posture Mgmt | `Defender` `Azure Portal` |
+| **[Log Analytics & KQL](labs/Azure_Log_Analytics_&_KQL/README.md)** | SIEM Querying | `KQL` `Sentinel` |
 
 ---
 
-## AegisMind – AI-Based Cybersecurity Monitoring & Behavioral Anomaly Detection
+# 👁️ SOC & Threat Intelligence
+*Log analysis, SIEM operations, and malware triage.*
 
-**Folder:** [https://github.com/Mosshead-marimo/AegisMind](https://github.com/Mosshead-marimo/AegisMind)
-
-A comprehensive **blue-team and SOC-focused project** that implements a **real-time cybersecurity monitoring system** capable of detecting abnormal system behavior using **AI-driven behavioral analytics**.
-
-AegisMind simulates how modern security operations platforms combine **machine learning, behavioral baselining, and threat-framework mapping** to support faster and more accurate incident detection and response.
-
-### Project Coverage
-
-* Behavioral feature engineering from system and activity data
-* Ensemble-based anomaly detection using:
-
-  * Autoencoders
-  * Isolation Forest
-  * One-Class SVM
-* Real-time anomaly scoring and alerting
-* Mapping detected behaviors to MITRE ATT&CK tactics
-* Cyber command-center style dashboard for SOC visibility
-* Automated threat reporting and analysis summaries
-
-### Security Outcomes
-
-* Early detection of suspicious and insider-like behavior
-* Improved analyst context through tactic-based reasoning
-* Demonstration of AI-assisted SOC decision support
-
-**Tools & Technologies:**
-Python, Machine Learning, Behavioral Analytics, MITRE ATT&CK, SOC Dashboards, Threat Detection
-
-
-
+| Lab | Focus & Methodology | Tools Used |
+| :--- | :--- | :--- |
+| **[Splunk SIEM Lab](labs/Splunk/README.md)** | Log ingestion, dashboards, correlation searches | `Splunk Enterprise` |
+| **[KQL Query Design](labs/KQL/README.md)** | Writing queries for threat hunting | `KQL` `Sentinel` |
+| **[Malware Analysis](labs/Virustotal/README.md)** | Hash analysis and EICAR testing | `VirusTotal` |
+| **[Phishing Analysis](labs/Urlscan.io/README.md)** | URL reputation and scan analysis | `urlscan.io` `AbuseIPDB` |
 
 ---
 
-# 📫 Contact
+# ⚔️ Offensive Security & Network
+*Red Teaming, Network Exploitation, and Web Security.*
 
-**LinkedIn:** https://www.linkedin.com/in/amey-gokhale  
-**Email:** ameygokhale1@gmail.com  
-**GitHub**: [https://github.com/ameygokhale](https://github.com/ameygokhale)
+| Lab | Description | Tools |
+| :--- | :--- | :--- |
+| **[Web App Pentesting](labs/dvwa-sqli/README.md)** | SQL Injection, XSS, and Burp Suite workflows | `Burp Suite` `SQLMap` |
+| **[MITM & Spoofing](labs/MITM-attack-bettercap/README.md)** | ARP/DNS Spoofing and traffic interception | `Bettercap` `Wireshark` |
+| **[Password Attacks](labs/Hydra/README.md)** | Brute-force and Hash cracking | `Hydra` `John the Ripper` |
+| **[Network Scanning](labs/nmap/README.md)** | Service enumeration and OS detection | `Nmap` `Netcat` |
 
 ---
 
-> ⚠️ **Ethical Notice**  
-> All testing was performed on systems I own or have explicit permission to test.  
-> This portfolio does **not** encourage unauthorized access or unethical hacking.
+# 🔍 Digital Forensics & Malware
+*Artifact analysis and reverse engineering.*
+
+| Lab | Scope | Tools |
+| :--- | :--- | :--- |
+| **[Memory Forensics](labs/Volatility3/README.md)** | RAM analysis to find injected processes | `Volatility3` |
+| **[Disk Forensics](labs/Autopsy/README.md)** | File system analysis and recovery | `Autopsy` |
+| **[Reverse Engineering](labs/ghidra/README.md)** | Analyzing malware binaries (ELF/PE) | `Ghidra` |
+| **[Email Forensics](labs/Phishinganalysis/README.md)** | Header analysis and attachment parsing | `ripmime` `oletools` |
+
+---
+
+# 📡 Network Engineering
+*Fundamental networking protocols and infrastructure.*
+
+| Lab | Topic | Tags |
+| :--- | :--- | :--- |
+| [Switching & Routing](labs/vlans/README.md) | VLANs, STP, Inter-VLAN Routing | `Cisco IOS` |
+| [Protocols](labs/dhcp-dns/README.md) | DHCP, DNS, OSPF, RIPv2 | `Packet Tracer` |
+| [Traffic Analysis](labs/wireshark/README.md) | Packet flow analysis (TCP/UDP handshake) | `Wireshark` |
+
+---
+
+<div align="center">
+
+> ⚠️ **Ethical Notice**
+> All work in this portfolio was performed in **isolated, intentionally vulnerable environments** (labs) or on hardware/systems I explicitly own. This portfolio documents defensive and educational security practices and does **not** promote unauthorized access.
+
+</div>
